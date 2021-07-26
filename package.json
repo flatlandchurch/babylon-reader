@@ -38,6 +38,8 @@
 		"@dmsi/prettier-config": "^1.3.0",
 		"@types/node": "^16.3.3",
 		"ava": "^3.15.0",
+		"cheerio": "^1.0.0-rc.10",
+		"globby": "^11.0.4",
 		"husky": "^7.0.1",
 		"lint-staged": "^11.0.1",
 		"prettier": "^2.3.2",
