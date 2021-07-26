@@ -978,7 +978,7 @@ global-dirs@^3.0.0:
   dependencies:
     ini "2.0.0"
 
-globby@^11.0.0, globby@^11.0.1:
+globby@^11.0.1, globby@^11.0.4:
   version "11.0.4"
   resolved "https://registry.yarnpkg.com/globby/-/globby-11.0.4.tgz#2cbaff77c2f2a62e71e9b2813a67b97a3a3001a5"
   integrity sha512-9O4MVG9ioZJ08ffbcyVYyLOJLk5JQ688pJ4eMGLpdWLHq/Wr1D9BlriLQyL0E+jbkuePVZXYFj47QM/v093wHg==
@@ -1306,6 +1306,11 @@ json-parse-even-better-errors@^2.3.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz#7c47805a94319928e05777405dc12e1f7a4ee02d"
   integrity sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==
+
+just-flatten@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/just-flatten/-/just-flatten-1.0.0.tgz#3f13289671ab7099259425a76f29b86934329ea1"
+  integrity sha1-PxMolnGrcJkllCWnbym4aTQynqE=
 
 keyv@^3.0.0:
   version "3.1.0"
@@ -1738,6 +1743,11 @@ pify@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/pify/-/pify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
   integrity sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==
+
+pipr@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/pipr/-/pipr-1.0.0.tgz#fbaa6fa3cbc96c9a5691f7053fa2d81e31793321"
+  integrity sha512-CPhLXLVp7x94uqs4R3ixR2Ae6fnd0VTuhEU4O4C7YcwRpAYKCYgATE7lMJs0PEAMd9C0/Aw1OjI/nnDHPHnc3g==
 
 pkg-conf@^3.1.0:
   version "3.1.0"
