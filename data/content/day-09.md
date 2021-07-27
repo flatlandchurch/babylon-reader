@@ -1,6 +1,8 @@
 ---
 day: 9
 weekday: Tuesday
+chapterNotation: Leviticus 16, 23; Deuteronomy 17, 28
+notes: null
 week: 2
 themes:
   - Atonement

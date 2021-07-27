@@ -1,6 +1,8 @@
 ---
 day: 16
 weekday: Tuesday
+chapterNotation: Isaiah 6; Ezekiel 1, 10, 16
+notes: null
 week: 3
 themes:
   - Exile

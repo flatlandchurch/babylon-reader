@@ -1,6 +1,8 @@
 ---
 day: 7
 weekday: Sunday
+chapterNotation: Exodus 6-11
+notes: null
 week: 2
 themes:
   - God as Liberator

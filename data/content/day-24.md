@@ -1,6 +1,8 @@
 ---
 day: 24
 weekday: Wednesday
+chapterNotation: Mark 5-8
+notes: null
 week: 4
 themes:
   - Gospel

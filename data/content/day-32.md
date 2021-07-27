@@ -1,6 +1,8 @@
 ---
 day: 32
 weekday: Thursday
+chapterNotation: Revelation 10-12
+notes: null
 week: 5
 themes:
   - Judgement

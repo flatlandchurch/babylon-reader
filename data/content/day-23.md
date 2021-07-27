@@ -1,6 +1,8 @@
 ---
 day: 23
 weekday: Tuesday
+chapterNotation: Mark 1-4
+notes: null
 week: 4
 themes:
   - Gospel

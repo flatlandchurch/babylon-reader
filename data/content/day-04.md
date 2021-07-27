@@ -1,6 +1,8 @@
 ---
 day: 4
 weekday: Thursday
+chapterNotation: Genesis 17-19
+notes: null
 week: 1
 themes:
   - Blessing

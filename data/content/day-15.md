@@ -1,6 +1,8 @@
 ---
 day: 15
 weekday: Monday
+chapterNotation: 1 Kings 21; 2 Kings 24-25
+notes: null
 week: 3
 themes:
   - Becoming the Oppressor

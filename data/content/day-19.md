@@ -1,6 +1,8 @@
 ---
 day: 19
 weekday: Friday
+chapterNotation: Daniel 7
+notes: null
 week: 3
 themes:
   - Exile

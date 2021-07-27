@@ -1,6 +1,8 @@
 ---
 day: 10
 weekday: Wednesday
+chapterNotation: Judges 1-2, 17
+notes: null
 week: 2
 themes:
   - People of God

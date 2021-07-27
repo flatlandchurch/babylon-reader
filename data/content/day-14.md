@@ -1,6 +1,8 @@
 ---
 day: 14
 weekday: Sunday
+chapterNotation: 1 Kings 10-12
+notes: null
 week: 3
 themes:
   - Egypt

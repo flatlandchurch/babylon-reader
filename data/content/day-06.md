@@ -1,6 +1,8 @@
 ---
 day: 6
 weekday: Saturday
+chapterNotation: Exodus 1-5
+notes: null
 week: 1
 themes:
   - People of God

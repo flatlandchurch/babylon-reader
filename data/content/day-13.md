@@ -1,6 +1,8 @@
 ---
 day: 13
 weekday: Saturday
+chapterNotation: 2 Samuel 17; 1 Kings 3-5
+notes: null
 week: 2
 themes:
   - King/Kingdom

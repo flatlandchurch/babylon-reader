@@ -73,6 +73,8 @@ const tableToContent = (table) => {
       filename: `day-${day.toString().padStart(2, '0')}.md`,
       day: parseInt(day, 10),
       weekday: WEEKDAY_ABBREVIATIONS[weekday],
+      chapterNotation: chapters,
+      notes,
       week: Math.floor(parseInt(day, 10) / 7) + 1,
       themes: themes.split(',').map((t) => t.trim()),
       babylons: who.split(',').map((t) => t.trim()),

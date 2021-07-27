@@ -1,6 +1,8 @@
 ---
 day: 2
 weekday: Tuesday
+chapterNotation: Genesis 10-12
+notes: null
 week: 1
 themes:
   - Exile

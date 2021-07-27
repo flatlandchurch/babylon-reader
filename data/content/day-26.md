@@ -1,6 +1,8 @@
 ---
 day: 26
 weekday: Friday
+chapterNotation: Mark 13-16
+notes: null
 week: 4
 themes:
   - Gospel

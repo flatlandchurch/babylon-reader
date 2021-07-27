@@ -1,6 +1,8 @@
 ---
 day: 35
 weekday: Sunday
+chapterNotation: Revelation 21-22
+notes: null
 week: 6
 themes:
   - Resurrection
