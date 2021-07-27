@@ -4,7 +4,7 @@
 	"private": false,
 	"description": "A Bible reader with badges for our Babylon series.",
 	"repository": "https://github.com/flatlandchurch/babylon-reader",
-	"license": "MIT",
+	"license": "GPL-3.0-or-later",
 	"author": "Matt McElwee <mubatt@wyopub.com>",
 	"main": "dist/main.js",
 	"scripts": {
