@@ -3,6 +3,7 @@ day: 26
 weekday: Friday
 chapterNotation: Mark 13-16
 notes: null
+title: "Jesus, the Son of Man, pt 4"
 week: 4
 themes:
   - Gospel

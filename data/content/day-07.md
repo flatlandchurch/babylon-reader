@@ -3,6 +3,7 @@ day: 7
 weekday: Sunday
 chapterNotation: Exodus 6-11
 notes: null
+title: "Stretch Out My Hand"
 week: 2
 themes:
   - God as Liberator

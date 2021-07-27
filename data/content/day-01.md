@@ -2,6 +2,7 @@
 day: 1
 weekday: Monday
 chapterNotation: Genesis 1-4
+title: "The Test"
 notes: ""
 week: 1
 themes:

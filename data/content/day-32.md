@@ -3,6 +3,7 @@ day: 32
 weekday: Thursday
 chapterNotation: Revelation 10-12
 notes: null
+title: "The Woman and the Dragon"
 week: 5
 themes:
   - Judgement

@@ -3,6 +3,7 @@ day: 14
 weekday: Sunday
 chapterNotation: 1 Kings 10-12
 notes: null
+title: "Pharoah, King of Israel"
 week: 3
 themes:
   - Egypt

@@ -3,6 +3,7 @@ day: 4
 weekday: Thursday
 chapterNotation: Genesis 17-19
 notes: null
+title: "On Earth as it is in Babylon"
 week: 1
 themes:
   - Blessing

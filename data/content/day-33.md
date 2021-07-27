@@ -3,6 +3,7 @@ day: 33
 weekday: Friday
 chapterNotation: Revelation 16-18
 notes: null
+title: "The Whore of Babylon"
 week: 5
 themes:
   - Babylon

@@ -3,6 +3,7 @@ day: 34
 weekday: Saturday
 chapterNotation: Revelation 19-20
 notes: null
+title: "The End"
 week: 5
 themes:
   - Day of the Lord

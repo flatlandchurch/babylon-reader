@@ -3,6 +3,7 @@ day: 16
 weekday: Tuesday
 chapterNotation: Isaiah 6; Ezekiel 1, 10, 16
 notes: null
+title: "God in a Box, Revisited"
 week: 3
 themes:
   - Exile

@@ -3,6 +3,7 @@ day: 24
 weekday: Wednesday
 chapterNotation: Mark 5-8
 notes: null
+title: "Jesus, the Son of Man, pt 2"
 week: 4
 themes:
   - Gospel

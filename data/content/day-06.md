@@ -3,6 +3,7 @@ day: 6
 weekday: Saturday
 chapterNotation: Exodus 1-5
 notes: null
+title: "Heard Their Cry"
 week: 1
 themes:
   - People of God

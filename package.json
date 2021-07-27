@@ -11,7 +11,7 @@
 		"prebuild": "rimraf public/data",
 		"build": "run-p build:bundle build:data",
 		"build:bundle": "node build.js",
-		"build:data": "run-s build:yves build:html build:json build:table build:content",
+		"build:data": "run-s build:yves build:html build:json build:content",
 		"build:yves": "node tools/parseYves.js",
 		"build:html": "node tools/parseHTML.js",
 		"build:json": "node tools/normalize.js",

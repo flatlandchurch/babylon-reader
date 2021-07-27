@@ -3,6 +3,7 @@ day: 2
 weekday: Tuesday
 chapterNotation: Genesis 10-12
 notes: null
+title: "The Birth of Babylon"
 week: 1
 themes:
   - Exile

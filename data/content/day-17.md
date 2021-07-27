@@ -3,6 +3,7 @@ day: 17
 weekday: Wednesday
 chapterNotation: Daniel 1-3
 notes: null
+title: "The Faithful Jew"
 week: 3
 themes:
   - People of God

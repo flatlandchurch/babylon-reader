@@ -1,8 +1,9 @@
 ---
 day: 30
 weekday: Tuesday
-chapterNotation: Revelation 4-5
+chapterNotation: Revelation 2-5
 notes: null
+title: "Holy, Holy, Holy"
 week: 5
 themes:
   - God as Liberator
@@ -10,6 +11,8 @@ themes:
 babylons:
   - Rome
 chapters:
+  - REV.2
+  - REV.3
   - REV.4
   - REV.5
 ---
