@@ -25,7 +25,6 @@ const stanzaStart = { type: types.STANZA_START };
 const stanzaEnd = { type: types.STANZA_END };
 
 const normalize = (file) => {
-  console.log(file);
   return pipr([
     removeWhitespaceAtStartOfParagraphsOrBooks,
     removeWhitespaceAtStartOfLines,
@@ -41,7 +40,6 @@ const normalize = (file) => {
 };
 
 const removeWhitespaceAtStartOfParagraphsOrBooks = (chunks) => {
-  console.log(chunks);
   let pastFirstVerse = false;
   let lastChunk = null;
   return chunks.filter((chunk) => {
