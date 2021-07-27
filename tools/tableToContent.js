@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { promisify } = require('util');
 const flatten = require('just-flatten');
+const yml = require('yaml');
 
 const read = promisify(fs.readFile);
 const write = promisify(fs.writeFile);
@@ -70,8 +71,9 @@ const tableToContent = (table) => {
 
     return {
       filename: `day-${day.toString().padStart(2, '0')}.md`,
+      day: parseInt(day, 10),
       weekday: WEEKDAY_ABBREVIATIONS[weekday],
-      week: Math.floor(day / 7) + 1,
+      week: Math.floor(parseInt(day, 10) / 7) + 1,
       themes: themes.split(',').map((t) => t.trim()),
       babylons: who.split(',').map((t) => t.trim()),
       chapters: flatten(chapters.split(';').map((t) => parseReferences(t.trim()))),
@@ -82,5 +84,13 @@ const tableToContent = (table) => {
 (async () => {
   const file = (await read(path.join(__dirname, '../data/table.md'))).toString();
   const outFiles = tableToContent(file);
-  console.log(outFiles);
+  await Promise.all(
+    outFiles.map((f) => {
+      const { filename, ...fm } = f;
+      return write(
+        path.join(__dirname, '../data/content', filename),
+        `---\n${yml.stringify(fm).trim()}\n---`,
+      );
+    }),
+  );
 })();
