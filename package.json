@@ -69,6 +69,8 @@
 	"dependencies": {
 		"@netlify/functions": "^0.7.2",
 		"goober": "^2.0.39",
-		"preact": "^10.5.14"
+		"preact": "^10.5.14",
+		"sort-on": "^4.1.1",
+		"verse-reference-regex": "^1.3.0"
 	}
 }

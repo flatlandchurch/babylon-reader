@@ -14,7 +14,7 @@ babylons:
   - Canaanite Nations
   - Israel
 chapters:
-  - JUD.1
-  - JUD.2
-  - JUD.17
+  - JUDG.1
+  - JUDG.2
+  - JUDG.17
 ---

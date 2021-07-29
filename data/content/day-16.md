@@ -13,7 +13,7 @@ babylons:
   - Babylon
 chapters:
   - ISA.6
-  - EZE.1
-  - EZE.10
-  - EZE.16
+  - EZEK.1
+  - EZEK.10
+  - EZEK.16
 ---

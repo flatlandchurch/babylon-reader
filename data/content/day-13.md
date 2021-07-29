@@ -11,8 +11,8 @@ themes:
 babylons:
   - N/A
 chapters:
-  - undefined.17
-  - 1KI.3
-  - 1KI.4
-  - 1KI.5
+  - 2SAM.17
+  - 1KGS.3
+  - 1KGS.4
+  - 1KGS.5
 ---

@@ -10,5 +10,5 @@ themes:
 babylons:
   - Israel (Herod)
 chapters:
-  - MAT.2
+  - MATT.2
 ---

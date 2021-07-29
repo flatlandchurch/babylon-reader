@@ -12,7 +12,7 @@ themes:
 babylons:
   - Israel
 chapters:
-  - 1KI.21
-  - 2KI.24
-  - 2KI.25
+  - 1KGS.21
+  - 2KGS.24
+  - 2KGS.25
 ---

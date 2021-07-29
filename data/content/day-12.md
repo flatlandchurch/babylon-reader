@@ -10,7 +10,7 @@ themes:
 babylons:
   - Philistines
 chapters:
-  - 1SA.5
-  - 1SA.6
-  - 1SA.8
+  - 1SAM.5
+  - 1SAM.6
+  - 1SAM.8
 ---

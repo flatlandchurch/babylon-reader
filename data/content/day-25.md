@@ -14,8 +14,8 @@ babylons:
   - Israel
   - Rome
 chapters:
-  - MRK.9
-  - MRK.10
-  - MRK.11
-  - MRK.12
+  - MARK.9
+  - MARK.10
+  - MARK.11
+  - MARK.12
 ---

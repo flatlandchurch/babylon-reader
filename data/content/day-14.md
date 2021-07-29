@@ -11,7 +11,7 @@ themes:
 babylons:
   - Israel
 chapters:
-  - 1KI.10
-  - 1KI.11
-  - 1KI.12
+  - 1KGS.10
+  - 1KGS.11
+  - 1KGS.12
 ---

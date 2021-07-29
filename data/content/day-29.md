@@ -10,5 +10,5 @@ themes:
 babylons:
   - Rome
 chapters:
-  - 1PE.5
+  - 1PET.5
 ---

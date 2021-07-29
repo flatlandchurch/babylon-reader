@@ -16,6 +16,6 @@ babylons:
 chapters:
   - LEV.16
   - LEV.23
-  - DEU.17
-  - DEU.28
+  - DEUT.17
+  - DEUT.28
 ---

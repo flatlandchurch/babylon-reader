@@ -12,6 +12,6 @@ themes:
 babylons:
   - Israel
 chapters:
-  - ACT.4
-  - ACT.7
+  - ACTS.4
+  - ACTS.7
 ---

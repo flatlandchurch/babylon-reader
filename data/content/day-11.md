@@ -13,7 +13,7 @@ themes:
 babylons:
   - Israel
 chapters:
-  - JUD.19
-  - JUD.20
-  - JUD.21
+  - JUDG.19
+  - JUDG.20
+  - JUDG.21
 ---
