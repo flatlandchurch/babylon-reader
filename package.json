@@ -15,7 +15,6 @@
 		"build:yves": "node tools/parseYves.js",
 		"build:html": "node tools/parseHTML.js",
 		"build:json": "node tools/normalize.js",
-		"build:table": "node tools/tableToContent.js",
 		"build:content": "node tools/makeContentFile.js",
 		"postbuild": "mkdir public/data && cp -r data/final/ public/data && mv data/plan.json public/data/plan.json",
 		"start": "netlify dev"
