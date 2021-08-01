@@ -14,14 +14,10 @@ const parse = (arr) => {
     bytes.push(b);
     i += 2;
   }
-  return (
-    bytes
-      .map((x) => String.fromCharCode(x & 0xff))
-      .join('')
-      // TODO: actually solve this
-      .replace(/[^\u0000-\u007F]/g, '&nbsp;')
-      .replace(/&nbsp;&nbsp;&nbsp;/g, `"`)
-  );
+  return bytes.map((x) => String.fromCharCode(x & 0xff)).join('');
+  // TODO: actually solve this
+  // .replace(/[^\u0000-\u007F]/g, '&nbsp;')
+  // .replace(/&nbsp;&nbsp;&nbsp;/g, `"`)
 };
 
 (async () => {

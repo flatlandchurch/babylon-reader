@@ -1,16 +1,28 @@
-import { h, Fragment } from 'preact';
+import { h } from 'preact';
 import { styled } from 'goober';
-import { useState } from 'preact/hooks';
-import { createRegex, extractRangeFromMatch } from 'verse-reference-regex';
+import shouldIntercept from 'click-should-be-intercepted-for-navigation';
 
-const regexpr = createRegex({ requireVerse: false });
+import handleClick from '../../handleClick';
 
-const Row = styled('div')`
-  padding: 12px 24px;
+const Row = styled('article')`
+  padding: 16px 24px;
   display: grid;
   grid-template-columns: minmax(0, max-content) 1fr minmax(0, max-content);
   grid-gap: 12px;
   align-items: center;
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 88%;
+    height: 1px;
+    background: #dbdbdb;
+    position: absolute;
+    left: 6%;
+    bottom: 0;
+  }
 `;
 
 const TitleCol = styled('div')`
@@ -32,24 +44,19 @@ const Bubble = styled('div')`
   border-radius: 50%;
 `;
 
-const Button = styled('button')`
+const Link = styled('a')`
+  color: #303030;
+  text-decoration: none;
   display: block;
-  padding: 4px;
-  border: 0;
-  background: transparent;
-  font-size: inherit;
-`;
 
-const Expansion = styled('div')`
-  padding: 12px 32px;
-  background: #f0f0f0;
+  &:last-child ${Row}::after {
+    display: none;
+  }
 `;
 
 const Day = ({ day }) => {
-  const [expanded, setExpanded] = useState(false);
-
   return (
-    <Fragment>
+    <Link href={`/day/${day.day}`} onClick={handleClick(`/day/${day.day}`)}>
       <Row key={day.day}>
         <Bubble />
         <TitleCol>
@@ -58,27 +65,9 @@ const Day = ({ day }) => {
           </Title>
           <div>{day.chapterNotation}</div>
         </TitleCol>
-        <Button onClick={() => setExpanded((e) => !e)}>
-          <span className="material-icons">{!expanded ? 'expand_more' : 'expand_less'}</span>
-        </Button>
+        <span className="material-icons">navigate_next</span>
       </Row>
-      <Expansion>
-        {day.chapters.map((chapter) => {
-          console.log(chapter);
-          const cleanedChapter = chapter
-            .split('.')
-            .join(' ')
-            .replace(/^1/, '1 ')
-            .replace(/^2/, '2 ');
-          const res = extractRangeFromMatch(regexpr.exec(cleanedChapter));
-          console.log(res);
-
-          return (
-            <span>Read: {chapter}</span> // TODO: make these links
-          );
-        })}
-      </Expansion>
-    </Fragment>
+    </Link>
   );
 };
 
