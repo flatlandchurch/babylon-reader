@@ -2,6 +2,8 @@ import { createContext, h } from 'preact';
 import { useContext, useEffect, useState } from 'preact/hooks';
 import sortOn from 'sort-on';
 
+import copyrights from './copyrights';
+
 export type Day = {
   babylons: string[];
   chapterNotation: string;
@@ -108,12 +110,12 @@ export const useTexts = (chapters: string[]) => {
               return d;
             });
         } else {
-          return Promise.resolve(getCachedText(ref));
+          return Promise.resolve(JSON.parse(getCachedText(ref)));
         }
       }),
     )
       .then((d) => {
-        setTexts(d.map((j) => JSON.parse(j)));
+        setTexts(d.map((j) => j));
       })
       .finally(() => {
         setLoading(false);
@@ -121,6 +123,11 @@ export const useTexts = (chapters: string[]) => {
   }, []);
 
   return { texts, loading };
+};
+
+export const useCopyright = () => {
+  const { preferredVersion } = useContext(DataContext);
+  return copyrights[preferredVersion];
 };
 
 export default DataProvider;

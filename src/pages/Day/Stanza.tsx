@@ -13,7 +13,6 @@ const Line = styled('span')`
 `;
 
 const Stanza = (unit: { chunks: Record<string, any>[] }) => {
-  console.log(unit);
   return (
     <Para>
       {unit.chunks
