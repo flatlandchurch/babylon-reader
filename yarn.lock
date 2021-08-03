@@ -9088,6 +9088,11 @@ widest-line@^3.1.0:
   dependencies:
     string-width "^4.0.0"
 
+windows-1252@^1.0.1:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/windows-1252/-/windows-1252-1.1.0.tgz#c9d7cb301f779322050f8c12454f277baeb9a98f"
+  integrity sha512-DuZvfW7bAFmIe7+eXkpGWV4SeJ0+HBlrCmFWc57vRcDZBwRomtjj7cnmbrb8UxwnWlxtRLi8W5q7kdku3hoJjw==
+
 windows-release@^3.1.0:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/windows-release/-/windows-release-3.3.3.tgz#1c10027c7225743eec6b89df160d64c2e0293999"

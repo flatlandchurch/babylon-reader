@@ -1,27 +1,28 @@
 const prettier = require('prettier');
+const { StringDecoder } = require('string_decoder');
+
+const decoder = new StringDecoder('utf8');
 
 const mapFiles = require('./mapFiles');
+
+const flipAlphabet = (n) => ((0xff & n) >> 5) | ((0xff & n) << 3);
 
 const parse = (arr) => {
   const bytes = [];
   let i = 0;
   while (i < arr.length) {
     if (arr.length > i + 1) {
-      const b = ((255 & arr[i + 1]) >> 5) | ((255 & arr[i + 1]) << 3);
+      const b = flipAlphabet(arr[i + 1]);
       bytes.push(b);
     }
-    const b = ((255 & arr[i]) >> 5) | ((255 & arr[i]) << 3);
+    const b = flipAlphabet(arr[i]);
     bytes.push(b);
     i += 2;
   }
-  return bytes.map((x) => String.fromCharCode(x & 0xff)).join('');
-  // TODO: actually solve this
-  // .replace(/[^\u0000-\u007F]/g, '&nbsp;')
-  // .replace(/&nbsp;&nbsp;&nbsp;/g, `"`)
+
+  return decoder.write(Buffer.from(bytes.map((x) => String.fromCharCode(x)).join(''), 'ascii'));
 };
 
 (async () => {
-  await mapFiles('raw', 'yves', 'html', 'html', parse, false, (i) =>
-    prettier.format(i, { parser: 'html' }),
-  );
+  await mapFiles('raw', 'yves', 'html', 'html', parse, false);
 })();

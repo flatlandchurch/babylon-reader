@@ -2,7 +2,7 @@ import { h } from 'preact';
 import { styled } from 'goober';
 import { createRegex, extractRangeFromMatch } from 'verse-reference-regex';
 
-import { useCopyright, usePlan, useTexts } from '../../DataProvider';
+import { useCopyright, usePlan, useTexts, Day as DayType } from '../../DataProvider';
 import Paragraph from './Paragraph';
 import Stanza from './Stanza';
 import condense from './condense';
@@ -51,15 +51,17 @@ const parseChapter = (ch: string) => {
 const Day = () => {
   const plan = usePlan();
   const [, day] = window.location.pathname.replace(/^\//, '').split('/');
-  const dayPlan = plan[parseInt(day) - 1];
-  const { texts, loading } = useTexts(dayPlan.chapters);
+  const dayPlan = plan[parseInt(day) - 1] || ({} as DayType);
+  const { texts, loading } = useTexts(dayPlan ? dayPlan.chapters : []);
   const copyright = useCopyright();
 
   return (
     <Article>
-      <h1>
-        Day {day}: {dayPlan.title}
-      </h1>
+      {!loading && (
+        <h1>
+          Day {day}: {dayPlan.title}
+        </h1>
+      )}
       {!loading &&
         texts.length &&
         dayPlan.chapters.map((ch, idx) => (

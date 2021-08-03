@@ -21,9 +21,7 @@ const Home = () => {
       <Jumbo>
         <h1>Babylon</h1>
       </Jumbo>
-      {plan.map((day) => (
-        <Day key={day.day} day={day} />
-      ))}
+      {plan && plan.map((day) => <Day key={day.day} day={day} />)}
     </Fragment>
   );
 };

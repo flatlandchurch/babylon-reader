@@ -100,7 +100,7 @@
     "verseNumber": 9,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "TheGod made all kinds of trees grow out of the groundâtrees that were pleasing to the eye and good for food. In the middle of the garden were the tree of life and the tree of the knowledge of good and evil."
+    "value": "TheGod made all kinds of trees grow out of the ground—trees that were pleasing to the eye and good for food. In the middle of the garden were the tree of life and the tree of the knowledge of good and evil."
   },
   {
     "type": "paragraph_end"
@@ -161,14 +161,14 @@
     "verseNumber": 16,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "And theGod commanded the man, âYou are free to eat from any tree in the garden;"
+    "value": "And theGod commanded the man, “You are free to eat from any tree in the garden;"
   },
   {
     "sectionNumber": 1,
     "verseNumber": 17,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "but you must not eat from the tree of the knowledge of good and evil, for when you eat from it you will certainly die.â"
+    "value": "but you must not eat from the tree of the knowledge of good and evil, for when you eat from it you will certainly die.”"
   },
   {
     "type": "paragraph_end"
@@ -181,7 +181,7 @@
     "verseNumber": 18,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "TheGod said, âIt is not good for the man to be alone. I will make a helper suitable for him.â"
+    "value": "TheGod said, “It is not good for the man to be alone. I will make a helper suitable for him.”"
   },
   {
     "type": "paragraph_end"
@@ -221,7 +221,7 @@
     "verseNumber": 21,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "So theGod caused the man to fall into a deep sleep; and while he was sleeping, he took one of the manâs ribsand then closed up the place with flesh."
+    "value": "So theGod caused the man to fall into a deep sleep; and while he was sleeping, he took one of the man’s ribsand then closed up the place with flesh."
   },
   {
     "sectionNumber": 1,
@@ -254,7 +254,7 @@
     "verseNumber": 23,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "âThis is now bone of my bones"
+    "value": "“This is now bone of my bones"
   },
   {
     "type": "line_break"
@@ -274,7 +274,7 @@
     "verseNumber": 23,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "she shall be called âwoman,â"
+    "value": "she shall be called ‘woman,’"
   },
   {
     "type": "line_break"
@@ -284,7 +284,7 @@
     "verseNumber": 23,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "for she was taken out of man.â"
+    "value": "for she was taken out of man.”"
   },
   {
     "type": "line_break"

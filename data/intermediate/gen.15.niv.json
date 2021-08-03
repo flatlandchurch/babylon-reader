@@ -19,7 +19,7 @@
   },
   {
     "type": "line_text",
-    "value": "âDo not be afraid, Abram."
+    "value": "“Do not be afraid, Abram."
   },
   {
     "type": "line_break"
@@ -37,7 +37,7 @@
   },
   {
     "type": "line_text",
-    "value": "â"
+    "value": "”"
   },
   {
     "type": "line_break"
@@ -55,7 +55,7 @@
   },
   {
     "type": "paragraph_text",
-    "value": "But Abram said, âSovereign"
+    "value": "But Abram said, “Sovereign"
   },
   {
     "type": "paragraph_text",
@@ -63,7 +63,7 @@
   },
   {
     "type": "paragraph_text",
-    "value": "my estate is Eliezer of Damascus?â"
+    "value": "my estate is Eliezer of Damascus?”"
   },
   {
     "type": "verse_number",
@@ -71,7 +71,7 @@
   },
   {
     "type": "paragraph_text",
-    "value": "And Abram said, âYou have given me no children; so a servant in my household will be my heir.â"
+    "value": "And Abram said, “You have given me no children; so a servant in my household will be my heir.”"
   },
   {
     "type": "paragraph_end"
@@ -93,7 +93,7 @@
   },
   {
     "type": "paragraph_text",
-    "value": "came to him: âThis man will not be your heir, but a son who is your own flesh and blood will be your heir.â"
+    "value": "came to him: “This man will not be your heir, but a son who is your own flesh and blood will be your heir.”"
   },
   {
     "type": "verse_number",
@@ -101,11 +101,11 @@
   },
   {
     "type": "paragraph_text",
-    "value": "He took him outside and said, âLook up at the sky and count the starsâif indeed you can count them.â Then he said to him, âSo shall your offspring"
+    "value": "He took him outside and said, “Look up at the sky and count the stars—if indeed you can count them.” Then he said to him, “So shall your offspring"
   },
   {
     "type": "paragraph_text",
-    "value": "be.â"
+    "value": "be.”"
   },
   {
     "type": "paragraph_end"
@@ -145,11 +145,11 @@
   },
   {
     "type": "paragraph_text",
-    "value": "He also said to him, âI am the"
+    "value": "He also said to him, “I am the"
   },
   {
     "type": "paragraph_text",
-    "value": ", who brought you out of Ur of the Chaldeans to give you this land to take possession of it.â"
+    "value": ", who brought you out of Ur of the Chaldeans to give you this land to take possession of it.”"
   },
   {
     "type": "paragraph_end"
@@ -167,11 +167,11 @@
   },
   {
     "type": "paragraph_text",
-    "value": "But Abram said, âSovereign"
+    "value": "But Abram said, “Sovereign"
   },
   {
     "type": "paragraph_text",
-    "value": ", how can I know that I will gain possession of it?â"
+    "value": ", how can I know that I will gain possession of it?”"
   },
   {
     "type": "paragraph_end"
@@ -193,7 +193,7 @@
   },
   {
     "type": "paragraph_text",
-    "value": "said to him, âBring me a heifer, a goat and a ram, each three years old, along with a dove and a young pigeon.â"
+    "value": "said to him, “Bring me a heifer, a goat and a ram, each three years old, along with a dove and a young pigeon.”"
   },
   {
     "type": "paragraph_end"
@@ -249,7 +249,7 @@
   },
   {
     "type": "paragraph_text",
-    "value": "said to him, âKnow for certain that for four hundred years your descendants will be strangers in a country not their own and that they will be enslaved and mistreated there."
+    "value": "said to him, “Know for certain that for four hundred years your descendants will be strangers in a country not their own and that they will be enslaved and mistreated there."
   },
   {
     "type": "verse_number",
@@ -273,7 +273,7 @@
   },
   {
     "type": "paragraph_text",
-    "value": "In the fourth generation your descendants will come back here, for the sin of the Amorites has not yet reached its full measure.â"
+    "value": "In the fourth generation your descendants will come back here, for the sin of the Amorites has not yet reached its full measure.”"
   },
   {
     "type": "paragraph_end"
@@ -303,11 +303,11 @@
   },
   {
     "type": "paragraph_text",
-    "value": "made a covenant with Abram and said, âTo your descendants I give this land, from the Wadi"
+    "value": "made a covenant with Abram and said, “To your descendants I give this land, from the Wadi"
   },
   {
     "type": "paragraph_text",
-    "value": "of Egypt to the great river, the Euphratesâ"
+    "value": "of Egypt to the great river, the Euphrates—"
   },
   {
     "type": "verse_number",
@@ -331,7 +331,7 @@
   },
   {
     "type": "paragraph_text",
-    "value": "Amorites, Canaanites, Girgashites and Jebusites.â"
+    "value": "Amorites, Canaanites, Girgashites and Jebusites.”"
   },
   {
     "type": "paragraph_end"
