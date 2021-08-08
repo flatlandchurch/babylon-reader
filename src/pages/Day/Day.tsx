@@ -52,6 +52,24 @@ const getCopyright = (text: string) => {
       ];
 };
 
+const CompleteButton = styled('button')`
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 25px;
+  font-size: 14px;
+  background: #222;
+  color: #fff;
+  appearance: none;
+  border: 0;
+  margin: 24px auto 0;
+
+  .material-icons {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+`;
+
 const parseChapter = (ch: string) => {
   const regexpr = createRegex();
   const chapterFormatted = ch.replace('.', ' ').replace(/^1/, '1 ').replace(/^2/, '2 ');
@@ -83,6 +101,12 @@ const Day = () => {
             )}
           </section>
         ))}
+      {!loading && (
+        <CompleteButton>
+          <span className="material-icons">check</span>
+          <span>Mark Complete</span>
+        </CompleteButton>
+      )}
       <Copyright>{getCopyright(copyright)}</Copyright>
     </Article>
   );
