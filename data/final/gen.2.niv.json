@@ -50,7 +50,21 @@
     "verseNumber": 4,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "This is the account of the heavens and the earth when they were created, when theGod made the earth and the heavens."
+    "value": "This is the account of the heavens and the earth when they were created, when the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 4,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 4,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "God made the earth and the heavens."
   },
   {
     "type": "paragraph_end"
@@ -66,21 +80,49 @@
     "verseNumber": 5,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Now no shrub had yet appeared on the earthand no plant had yet sprung up, for theGod had not sent rain on the earth and there was no one to work the ground,"
+    "value": "Now no shrub had yet appeared on the earth and no plant had yet sprung up, for the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "God had not sent rain on the earth and there was no one to work the ground,"
   },
   {
     "sectionNumber": 1,
     "verseNumber": 6,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "but streamscame up from the earth and watered the whole surface of the ground."
+    "value": "but streams came up from the earth and watered the whole surface of the ground."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 7,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then theGod formed a manfrom the dust of the ground and breathed into his nostrils the breath of life, and the man became a living being."
+    "value": "Then the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 7,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 7,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "God formed a man from the dust of the ground and breathed into his nostrils the breath of life, and the man became a living being."
   },
   {
     "type": "paragraph_end"
@@ -93,14 +135,42 @@
     "verseNumber": 8,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Now theGod had planted a garden in the east, in Eden; and there he put the man he had formed."
+    "value": "Now the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 8,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 8,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "God had planted a garden in the east, in Eden; and there he put the man he had formed."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 9,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "TheGod made all kinds of trees grow out of the ground—trees that were pleasing to the eye and good for food. In the middle of the garden were the tree of life and the tree of the knowledge of good and evil."
+    "value": "The"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 9,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 9,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "God made all kinds of trees grow out of the ground—trees that were pleasing to the eye and good for food. In the middle of the garden were the tree of life and the tree of the knowledge of good and evil."
   },
   {
     "type": "paragraph_end"
@@ -127,14 +197,14 @@
     "verseNumber": 12,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "(The gold of that land is good; aromatic resinand onyx are also there.)"
+    "value": "(The gold of that land is good; aromatic resin and onyx are also there.)"
   },
   {
     "sectionNumber": 1,
     "verseNumber": 13,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "The name of the second river is the Gihon; it winds through the entire land of Cush."
+    "value": "The name of the second river is the Gihon; it winds through the entire land of Cush. "
   },
   {
     "sectionNumber": 1,
@@ -154,14 +224,42 @@
     "verseNumber": 15,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "TheGod took the man and put him in the Garden of Eden to work it and take care of it."
+    "value": "The"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 15,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 15,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "God took the man and put him in the Garden of Eden to work it and take care of it."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 16,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "And theGod commanded the man, “You are free to eat from any tree in the garden;"
+    "value": "And the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 16,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 16,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "God commanded the man, “You are free to eat from any tree in the garden;"
   },
   {
     "sectionNumber": 1,
@@ -181,7 +279,21 @@
     "verseNumber": 18,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "TheGod said, “It is not good for the man to be alone. I will make a helper suitable for him.”"
+    "value": "The"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 18,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 18,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "God said, “It is not good for the man to be alone. I will make a helper suitable for him.”"
   },
   {
     "type": "paragraph_end"
@@ -194,7 +306,21 @@
     "verseNumber": 19,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Now theGod had formed out of the ground all the wild animals and all the birds in the sky. He brought them to the man to see what he would name them; and whatever the man called each living creature, that was its name."
+    "value": "Now the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 19,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 19,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "God had formed out of the ground all the wild animals and all the birds in the sky. He brought them to the man to see what he would name them; and whatever the man called each living creature, that was its name."
   },
   {
     "sectionNumber": 1,
@@ -214,21 +340,49 @@
     "verseNumber": 20,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "But for Adamno suitable helper was found."
+    "value": "But for Adam no suitable helper was found."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 21,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "So theGod caused the man to fall into a deep sleep; and while he was sleeping, he took one of the man’s ribsand then closed up the place with flesh."
+    "value": "So the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 21,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 21,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "God caused the man to fall into a deep sleep; and while he was sleeping, he took one of the man’s ribs and then closed up the place with flesh."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 22,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then theGod made a woman from the ribhe had taken out of the man, and he brought her to the man."
+    "value": "Then the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 22,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 22,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "God made a woman from the rib he had taken out of the man, and he brought her to the man."
   },
   {
     "type": "paragraph_end"

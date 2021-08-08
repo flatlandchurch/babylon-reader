@@ -37,8 +37,19 @@ const getCopyright = (text: string) => {
   }
 
   return c.length > 1
-    ? [c[0], <a href={website[1]}>{website[1]}</a>, ...c.slice(1)]
-    : [...c, <a href={website[1]}>{website[1]}</a>];
+    ? [
+        c[0],
+        <a href={`https://${website[1]}`} target="_blank">
+          {website[1]}
+        </a>,
+        ...c.slice(1),
+      ]
+    : [
+        ...c,
+        <a href={`https://${website[1]}`} target="_blank">
+          {website[1]}
+        </a>,
+      ];
 };
 
 const parseChapter = (ch: string) => {

@@ -13,6 +13,7 @@ const types = {
   STANZA_START: `stanza_start`,
   STANZA_END: `stanza_end`,
   PARAGRAPH_TEXT: `paragraph_text`,
+  DIVINE_NAME_TEXT: `divine_name_text`,
   LINE_TEXT: `line_text`,
   LINE_BREAK: `line_break`,
   CHAPTER_NUMBER: `chapter_number`,
@@ -196,7 +197,7 @@ const combineContiguousTextChunks = (chunks) => {
       last.verseNumber === chunk.verseNumber &&
       last.chapterNumber === chunk.chapterNumber
     ) {
-      last.value += chunk.value;
+      last.value += ` ${chunk.value}`;
     } else {
       last = chunk;
       outputChunks.push(chunk);
@@ -236,7 +237,9 @@ const addSectionNumbers = (chunks) => {
 };
 
 const isTextChunk = (chunk) =>
-  chunk.type === types.PARAGRAPH_TEXT || chunk.type === types.LINE_TEXT;
+  chunk.type === types.PARAGRAPH_TEXT ||
+  chunk.type === types.LINE_TEXT ||
+  chunk.type === types.DIVINE_NAME_TEXT;
 
 const flatMap = (arr, fn) => flatten(arr.map(fn));
 const isStanzaChunk = (chunk) => chunk.type === types.LINE_TEXT || chunk.type === types.LINE_BREAK;

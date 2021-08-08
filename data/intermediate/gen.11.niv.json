@@ -71,6 +71,10 @@
     "value": "But the"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "paragraph_text",
     "value": "came down to see the city and the tower the people were building."
   },
@@ -81,6 +85,10 @@
   {
     "type": "paragraph_text",
     "value": "The"
+  },
+  {
+    "type": "divine_name_text",
+    "value": "Lord"
   },
   {
     "type": "paragraph_text",
@@ -113,6 +121,10 @@
     "value": "So the"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "paragraph_text",
     "value": "scattered them from there over all the earth, and they stopped building the city."
   },
@@ -129,8 +141,16 @@
     "value": "—because there the"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "paragraph_text",
     "value": "confused the language of the whole world. From there the"
+  },
+  {
+    "type": "divine_name_text",
+    "value": "Lord"
   },
   {
     "type": "paragraph_text",

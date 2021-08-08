@@ -7,7 +7,21 @@
     "verseNumber": 1,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Moses answered, “What if they do not believe me or listen to me and say, ‘Thedid not appear to you’?”"
+    "value": "Moses answered, “What if they do not believe me or listen to me and say, ‘The"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 1,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 1,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "did not appear to you’?”"
   },
   {
     "type": "paragraph_end"
@@ -20,7 +34,21 @@
     "verseNumber": 2,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then thesaid to him, “What is that in your hand?”"
+    "value": "Then the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 2,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 2,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "said to him, “What is that in your hand?”"
   },
   {
     "type": "paragraph_end"
@@ -29,7 +57,7 @@
     "type": "paragraph_start"
   },
   {
-    "sectionNumber": 2,
+    "sectionNumber": 4,
     "verseNumber": 2,
     "chapterNumber": null,
     "type": "paragraph_text",
@@ -46,7 +74,21 @@
     "verseNumber": 3,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Thesaid, “Throw it on the ground.”"
+    "value": "The"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 3,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 3,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "said, “Throw it on the ground.”"
   },
   {
     "type": "paragraph_end"
@@ -55,7 +97,7 @@
     "type": "paragraph_start"
   },
   {
-    "sectionNumber": 2,
+    "sectionNumber": 4,
     "verseNumber": 3,
     "chapterNumber": null,
     "type": "paragraph_text",
@@ -66,14 +108,56 @@
     "verseNumber": 4,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then thesaid to him, “Reach out your hand and take it by the tail.” So Moses reached out and took hold of the snake and it turned back into a staff in his hand."
+    "value": "Then the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 4,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 4,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "said to him, “Reach out your hand and take it by the tail.” So Moses reached out and took hold of the snake and it turned back into a staff in his hand."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 5,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "“This,” said the, “is so that they may believe that the, the God of their fathers—the God of Abraham, the God of Isaac and the God of Jacob—has appeared to you.”"
+    "value": "“This,” said the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ", “is so that they may believe that the"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 5,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ", the God of their fathers—the God of Abraham, the God of Isaac and the God of Jacob—has appeared to you.”"
   },
   {
     "type": "paragraph_end"
@@ -86,7 +170,21 @@
     "verseNumber": 6,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then thesaid, “Put your hand inside your cloak.” So Moses put his hand into his cloak, and when he took it out, the skin was leprous—it had become as white as snow."
+    "value": "Then the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 6,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 6,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "said, “Put your hand inside your cloak.” So Moses put his hand into his cloak, and when he took it out, the skin was leprous —it had become as white as snow."
   },
   {
     "type": "paragraph_end"
@@ -112,7 +210,21 @@
     "verseNumber": 8,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then thesaid, “If they do not believe you or pay attention to the first sign, they may believe the second."
+    "value": "Then the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 8,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 8,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "said, “If they do not believe you or pay attention to the first sign, they may believe the second."
   },
   {
     "sectionNumber": 1,
@@ -132,7 +244,21 @@
     "verseNumber": 10,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Moses said to the, “Pardon your servant, Lord. I have never been eloquent, neither in the past nor since you have spoken to your servant. I am slow of speech and tongue.”"
+    "value": "Moses said to the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 10,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 10,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ", “Pardon your servant, Lord. I have never been eloquent, neither in the past nor since you have spoken to your servant. I am slow of speech and tongue.”"
   },
   {
     "type": "paragraph_end"
@@ -145,7 +271,35 @@
     "verseNumber": 11,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Thesaid to him, “Who gave human beings their mouths? Who makes them deaf or mute? Who gives them sight or makes them blind? Is it not I, the?"
+    "value": "The"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 11,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 11,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "said to him, “Who gave human beings their mouths? Who makes them deaf or mute? Who gives them sight or makes them blind? Is it not I, the"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 11,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 5,
+    "verseNumber": 11,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "?"
   },
   {
     "sectionNumber": 1,
@@ -178,7 +332,21 @@
     "verseNumber": 14,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then the’s anger burned against Moses and he said, “What about your brother, Aaron the Levite? I know he can speak well. He is already on his way to meet you, and he will be glad to see you."
+    "value": "Then the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 14,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 14,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "’s anger burned against Moses and he said, “What about your brother, Aaron the Levite? I know he can speak well. He is already on his way to meet you, and he will be glad to see you."
   },
   {
     "sectionNumber": 1,
@@ -238,7 +406,21 @@
     "verseNumber": 19,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Now thehad said to Moses in Midian, “Go back to Egypt, for all those who wanted to kill you are dead.”"
+    "value": "Now the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 19,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 19,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "had said to Moses in Midian, “Go back to Egypt, for all those who wanted to kill you are dead.”"
   },
   {
     "sectionNumber": 1,
@@ -258,14 +440,42 @@
     "verseNumber": 21,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Thesaid to Moses, “When you return to Egypt, see that you perform before Pharaoh all the wonders I have given you the power to do. But I will harden his heart so that he will not let the people go."
+    "value": "The"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 21,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 21,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "said to Moses, “When you return to Egypt, see that you perform before Pharaoh all the wonders I have given you the power to do. But I will harden his heart so that he will not let the people go."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 22,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then say to Pharaoh, ‘This is what thesays: Israel is my firstborn son,"
+    "value": "Then say to Pharaoh, ‘This is what the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 22,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 22,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "says: Israel is my firstborn son,"
   },
   {
     "sectionNumber": 1,
@@ -285,21 +495,49 @@
     "verseNumber": 24,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "At a lodging place on the way, themet Mosesand was about to kill him."
+    "value": "At a lodging place on the way, the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 24,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 24,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "met Moses and was about to kill him."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 25,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "But Zipporah took a flint knife, cut off her son’s foreskin and touched Moses’ feet with it.“Surely you are a bridegroom of blood to me,” she said."
+    "value": "But Zipporah took a flint knife, cut off her son’s foreskin and touched Moses’ feet with it. “Surely you are a bridegroom of blood to me,” she said."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 26,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "So thelet him alone. (At that time she said “bridegroom of blood,” referring to circumcision.)"
+    "value": "So the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 26,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 26,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "let him alone. (At that time she said “bridegroom of blood,” referring to circumcision.)"
   },
   {
     "type": "paragraph_end"
@@ -312,14 +550,42 @@
     "verseNumber": 27,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Thesaid to Aaron, “Go into the wilderness to meet Moses.” So he met Moses at the mountain of God and kissed him."
+    "value": "The"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 27,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 27,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "said to Aaron, “Go into the wilderness to meet Moses.” So he met Moses at the mountain of God and kissed him."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 28,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then Moses told Aaron everything thehad sent him to say, and also about all the signs he had commanded him to perform."
+    "value": "Then Moses told Aaron everything the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 28,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 28,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "had sent him to say, and also about all the signs he had commanded him to perform."
   },
   {
     "type": "paragraph_end"
@@ -339,14 +605,42 @@
     "verseNumber": 30,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "and Aaron told them everything thehad said to Moses. He also performed the signs before the people,"
+    "value": "and Aaron told them everything the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 30,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 30,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "had said to Moses. He also performed the signs before the people,"
   },
   {
     "sectionNumber": 1,
     "verseNumber": 31,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "and they believed. And when they heard that thewas concerned about them and had seen their misery, they bowed down and worshiped."
+    "value": "and they believed. And when they heard that the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 31,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 31,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "was concerned about them and had seen their misery, they bowed down and worshiped."
   },
   {
     "type": "paragraph_end"

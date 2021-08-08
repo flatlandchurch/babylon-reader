@@ -66,6 +66,13 @@ const parseHTML = (str) => {
                 .join(' '),
             };
           }
+
+          if (c.type === 'tag' && c.name === 'span' && c.attribs.class === 'nd') {
+            return {
+              type: 'divine_name_text',
+              value: 'Lord',
+            };
+          }
         });
       }
 

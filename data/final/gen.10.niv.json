@@ -27,7 +27,7 @@
     "verseNumber": 2,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "The sonsof Japheth:"
+    "value": "The sons of Japheth:"
   },
   {
     "type": "line_break"
@@ -99,28 +99,56 @@
     "verseNumber": 8,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Cush was the fatherof Nimrod, who became a mighty warrior on the earth."
+    "value": "Cush was the father of Nimrod, who became a mighty warrior on the earth."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 9,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "He was a mighty hunter before the; that is why it is said, “Like Nimrod, a mighty hunter before the.”"
+    "value": "He was a mighty hunter before the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 9,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 9,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "; that is why it is said, “Like Nimrod, a mighty hunter before the"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 9,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 5,
+    "verseNumber": 9,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ".”"
   },
   {
     "sectionNumber": 1,
     "verseNumber": 10,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "The first centers of his kingdom were Babylon, Uruk, Akkad and Kalneh, inShinar."
+    "value": "The first centers of his kingdom were Babylon, Uruk, Akkad and Kalneh, in Shinar. "
   },
   {
     "sectionNumber": 1,
     "verseNumber": 11,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "From that land he went to Assyria, where he built Nineveh, Rehoboth Ir,Calah"
+    "value": "From that land he went to Assyria, where he built Nineveh, Rehoboth Ir, Calah"
   },
   {
     "sectionNumber": 1,
@@ -212,7 +240,7 @@
     "verseNumber": 21,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Sons were also born to Shem, whose older brother wasJapheth; Shem was the ancestor of all the sons of Eber."
+    "value": "Sons were also born to Shem, whose older brother was Japheth; Shem was the ancestor of all the sons of Eber."
   },
   {
     "type": "paragraph_end"
@@ -252,7 +280,7 @@
     "verseNumber": 24,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "Arphaxad was the father ofShelah,"
+    "value": "Arphaxad was the father of Shelah,"
   },
   {
     "type": "line_break"

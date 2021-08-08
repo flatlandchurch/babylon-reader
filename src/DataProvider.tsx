@@ -3,6 +3,7 @@ import { useContext, useEffect, useState } from 'preact/hooks';
 import sortOn from 'sort-on';
 
 import copyrights from './copyrights';
+import fetchJSON from './fetchJSON';
 
 export type Day = {
   babylons: string[];
@@ -31,20 +32,28 @@ export type Text =
 
 type Data = {
   plan: Day[];
-  texts: Record<string, Text[]>;
+  preferredShowVerses: boolean;
+  setPreferredShoVerses: (setting: boolean) => void;
   preferredVersion: 'niv' | 'nasb' | 'nlt';
-  setAndCacheText: (ref: string, text: string) => void;
-  getCachedText: (ref: string) => string;
   setPreferredVersion: (version: 'niv' | 'nasb' | 'nlt') => void;
+  preferredDivineName: 'lord' | 'yhwh' | 'yahweh';
+  setPreferredDivineName: (name: 'lord' | 'yhwh' | 'yahweh') => void;
 };
 
-export const DataContext = createContext<Partial<Data>>({ plan: [], texts: {} });
+export const DataContext = createContext<Partial<Data>>({ plan: [] });
 
 const DataProvider = ({ children }) => {
   const [plan, setPlan] = useState(JSON.parse(window.localStorage.getItem('br:plan') || '[]'));
-  const [texts, setTexts] = useState(JSON.parse(window.localStorage.getItem('br:text') || '{}'));
+
+  /** User Preferences */
   const [preferredVersion, setPreferredVersion] = useState<Data['preferredVersion']>(
     (window.localStorage.getItem('br:version') as Data['preferredVersion']) || 'niv',
+  );
+  const [preferredDivineName, setPreferredDivineName] = useState<Data['preferredDivineName']>(
+    (window.localStorage.getItem('br:divine-name') as Data['preferredDivineName']) || 'lord',
+  );
+  const [preferredShowVerses, setPreferredShoVerses] = useState<boolean>(
+    JSON.parse(window.localStorage.getItem('br:verses') || 'false') as boolean,
   );
 
   useEffect(() => {
@@ -59,28 +68,16 @@ const DataProvider = ({ children }) => {
     }
   }, []);
 
-  const setAndCacheText = (ref: string, text: string) => {
-    const nextTexts = {
-      ...texts,
-      [ref]: text,
-    };
-    setTexts(nextTexts);
-    window.localStorage.setItem('br:text', JSON.stringify(nextTexts));
-  };
-
-  const getCachedText = (ref: string) => {
-    return texts[ref];
-  };
-
   return (
     <DataContext.Provider
       value={{
         plan,
-        texts,
         preferredVersion,
-        getCachedText,
-        setAndCacheText,
         setPreferredVersion,
+        preferredDivineName,
+        setPreferredDivineName,
+        preferredShowVerses,
+        setPreferredShoVerses,
       }}
     >
       {children}
@@ -95,23 +92,14 @@ export const usePlan = () => {
 
 export const useTexts = (chapters: string[]) => {
   const [loading, setLoading] = useState(true);
-  const { setAndCacheText, getCachedText, preferredVersion } = useContext(DataContext);
+  const { preferredVersion } = useContext(DataContext);
   const [texts, setTexts] = useState([]);
 
   useEffect(() => {
     Promise.all(
       chapters.map((ch) => {
         const ref = `${ch}.${preferredVersion}`.toLowerCase();
-        if (!getCachedText(ref)) {
-          return fetch(`/data/${ref}.json`)
-            .then((d) => d.json())
-            .then((d) => {
-              setAndCacheText(ref, JSON.stringify(d));
-              return d;
-            });
-        } else {
-          return Promise.resolve(JSON.parse(getCachedText(ref)));
-        }
+        return fetchJSON(`/data/${ref}.json`);
       }),
     )
       .then((d) => {
@@ -128,6 +116,27 @@ export const useTexts = (chapters: string[]) => {
 export const useCopyright = () => {
   const { preferredVersion } = useContext(DataContext);
   return copyrights[preferredVersion];
+};
+
+export const useDivineName = () => {
+  const { preferredDivineName } = useContext(DataContext);
+
+  if (preferredDivineName === 'lord') {
+    return {
+      smallcaps: 'true',
+      name: 'Lord',
+    };
+  }
+
+  return {
+    smallcaps: false,
+    name: preferredDivineName === 'yhwh' ? 'YHWH' : 'Yahweh',
+  };
+};
+
+export const useVerseSetting = () => {
+  const { preferredShowVerses } = useContext(DataContext);
+  return preferredShowVerses;
 };
 
 export default DataProvider;

@@ -14,7 +14,21 @@
     "verseNumber": 2,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "so she said to Abram, “Thehas kept me from having children. Go, sleep with my slave; perhaps I can build a family through her.”"
+    "value": "so she said to Abram, “The"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 2,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 2,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "has kept me from having children. Go, sleep with my slave; perhaps I can build a family through her.”"
   },
   {
     "type": "paragraph_end"
@@ -23,7 +37,7 @@
     "type": "paragraph_start"
   },
   {
-    "sectionNumber": 2,
+    "sectionNumber": 4,
     "verseNumber": 2,
     "chapterNumber": null,
     "type": "paragraph_text",
@@ -61,7 +75,21 @@
     "verseNumber": 5,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then Sarai said to Abram, “You are responsible for the wrong I am suffering. I put my slave in your arms, and now that she knows she is pregnant, she despises me. May thejudge between you and me.”"
+    "value": "Then Sarai said to Abram, “You are responsible for the wrong I am suffering. I put my slave in your arms, and now that she knows she is pregnant, she despises me. May the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "judge between you and me.”"
   },
   {
     "type": "paragraph_end"
@@ -87,7 +115,21 @@
     "verseNumber": 7,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "The angel of thefound Hagar near a spring in the desert; it was the spring that is beside the road to Shur."
+    "value": "The angel of the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 7,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 7,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "found Hagar near a spring in the desert; it was the spring that is beside the road to Shur."
   },
   {
     "sectionNumber": 1,
@@ -120,7 +162,21 @@
     "verseNumber": 9,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then the angel of thetold her, “Go back to your mistress and submit to her.”"
+    "value": "Then the angel of the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 9,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 9,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "told her, “Go back to your mistress and submit to her.”"
   },
   {
     "sectionNumber": 1,
@@ -140,7 +196,21 @@
     "verseNumber": 11,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "The angel of thealso said to her:"
+    "value": "The angel of the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 11,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 11,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "also said to her:"
   },
   {
     "type": "paragraph_end"
@@ -149,7 +219,7 @@
     "type": "stanza_start"
   },
   {
-    "sectionNumber": 2,
+    "sectionNumber": 4,
     "verseNumber": 11,
     "chapterNumber": null,
     "type": "line_text",
@@ -159,7 +229,7 @@
     "type": "line_break"
   },
   {
-    "sectionNumber": 3,
+    "sectionNumber": 5,
     "verseNumber": 11,
     "chapterNumber": null,
     "type": "line_text",
@@ -169,7 +239,7 @@
     "type": "line_break"
   },
   {
-    "sectionNumber": 4,
+    "sectionNumber": 6,
     "verseNumber": 11,
     "chapterNumber": null,
     "type": "line_text",
@@ -179,11 +249,31 @@
     "type": "line_break"
   },
   {
-    "sectionNumber": 5,
+    "sectionNumber": 7,
     "verseNumber": 11,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "for thehas heard of your misery."
+    "value": "for the"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 8,
+    "verseNumber": 11,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 9,
+    "verseNumber": 11,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "has heard of your misery."
   },
   {
     "type": "line_break"
@@ -233,7 +323,7 @@
     "verseNumber": 12,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "towardall his brothers.”"
+    "value": "toward all his brothers.”"
   },
   {
     "type": "line_break"
@@ -249,14 +339,28 @@
     "verseNumber": 13,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "She gave this name to thewho spoke to her: “You are the God who sees me,” for she said, “I have now seenthe One who sees me.”"
+    "value": "She gave this name to the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 13,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 13,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "who spoke to her: “You are the God who sees me,” for she said, “I have now seen the One who sees me.”"
   },
   {
     "sectionNumber": 1,
     "verseNumber": 14,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "That is why the well was called Beer Lahai Roi; it is still there, between Kadesh and Bered."
+    "value": "That is why the well was called Beer Lahai Roi ; it is still there, between Kadesh and Bered."
   },
   {
     "type": "paragraph_end"

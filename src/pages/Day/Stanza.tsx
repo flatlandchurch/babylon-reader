@@ -1,18 +1,21 @@
 import { h } from 'preact';
 import { styled } from 'goober';
 
-import { Sup, Para } from './Paragraph';
+import { VerseNumber, Para, DivineName } from './Paragraph';
+import { useDivineName } from '../../DataProvider';
 
 const Line = styled('span')`
   display: block;
-  margin-left: 24px;
+  margin-left: 12px;
 
   &:not(:first-child) {
-    margin-left: 48px;
+    margin-left: 24px;
   }
 `;
 
 const Stanza = (unit: { chunks: Record<string, any>[] }) => {
+  const { name, smallcaps } = useDivineName();
+
   return (
     <Para>
       {unit.chunks
@@ -20,9 +23,13 @@ const Stanza = (unit: { chunks: Record<string, any>[] }) => {
         .map((chunk, idx) => (
           <Line>
             {idx > 0 && unit.chunks[idx - 1].verseNumber !== chunk.verseNumber && (
-              <Sup>{chunk.verseNumber}</Sup>
+              <VerseNumber>{chunk.verseNumber}</VerseNumber>
             )}
-            {chunk.value}
+            {chunk.type === 'divine_name_text' ? (
+              <DivineName smallcaps={smallcaps}>{name}</DivineName>
+            ) : (
+              chunk.value
+            )}
           </Line>
         ))}
     </Para>

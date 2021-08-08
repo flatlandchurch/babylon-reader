@@ -14,7 +14,7 @@
     "verseNumber": 2,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "As people moved eastward,they found a plain in Shinarand settled there."
+    "value": "As people moved eastward, they found a plain in Shinar and settled there."
   },
   {
     "type": "paragraph_end"
@@ -47,14 +47,42 @@
     "verseNumber": 5,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "But thecame down to see the city and the tower the people were building."
+    "value": "But the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "came down to see the city and the tower the people were building."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 6,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Thesaid, “If as one people speaking the same language they have begun to do this, then nothing they plan to do will be impossible for them."
+    "value": "The"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 6,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 6,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "said, “If as one people speaking the same language they have begun to do this, then nothing they plan to do will be impossible for them."
   },
   {
     "sectionNumber": 1,
@@ -74,14 +102,56 @@
     "verseNumber": 8,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "So thescattered them from there over all the earth, and they stopped building the city."
+    "value": "So the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 8,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 8,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "scattered them from there over all the earth, and they stopped building the city."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 9,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "That is why it was called Babel—because there theconfused the language of the whole world. From there thescattered them over the face of the whole earth."
+    "value": "That is why it was called Babel —because there the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 9,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 9,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "confused the language of the whole world. From there the"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 9,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 5,
+    "verseNumber": 9,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "scattered them over the face of the whole earth."
   },
   {
     "type": "paragraph_end"
@@ -110,7 +180,7 @@
     "verseNumber": 10,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Two years after the flood, when Shem was 100 years old, he became the fatherof Arphaxad."
+    "value": "Two years after the flood, when Shem was 100 years old, he became the father of Arphaxad."
   },
   {
     "sectionNumber": 1,

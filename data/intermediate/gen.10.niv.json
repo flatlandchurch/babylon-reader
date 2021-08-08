@@ -130,8 +130,16 @@
     "value": "He was a mighty hunter before the"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "paragraph_text",
     "value": "; that is why it is said, “Like Nimrod, a mighty hunter before the"
+  },
+  {
+    "type": "divine_name_text",
+    "value": "Lord"
   },
   {
     "type": "paragraph_text",

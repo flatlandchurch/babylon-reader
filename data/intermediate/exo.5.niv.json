@@ -11,6 +11,10 @@
     "value": "Afterward Moses and Aaron went to Pharaoh and said, “This is what the"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "paragraph_text",
     "value": ", the God of Israel, says: ‘Let my people go, so that they may hold a festival to me in the wilderness.’ ”"
   },
@@ -33,8 +37,16 @@
     "value": "Pharaoh said, “Who is the"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "paragraph_text",
     "value": ", that I should obey him and let Israel go? I do not know the"
+  },
+  {
+    "type": "divine_name_text",
+    "value": "Lord"
   },
   {
     "type": "paragraph_text",
@@ -57,6 +69,10 @@
   {
     "type": "paragraph_text",
     "value": "Then they said, “The God of the Hebrews has met with us. Now let us take a three-day journey into the wilderness to offer sacrifices to the"
+  },
+  {
+    "type": "divine_name_text",
+    "value": "Lord"
   },
   {
     "type": "paragraph_text",
@@ -225,6 +241,10 @@
     "value": "Pharaoh said, “Lazy, that’s what you are—lazy! That is why you keep saying, ‘Let us go and sacrifice to the"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "paragraph_text",
     "value": ".’"
   },
@@ -271,6 +291,10 @@
     "value": "and they said, “May the"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "paragraph_text",
     "value": "look on you and judge you! You have made us obnoxious to Pharaoh and his officials and have put a sword in their hand to kill us.”"
   },
@@ -291,6 +315,10 @@
   {
     "type": "paragraph_text",
     "value": "Moses returned to the"
+  },
+  {
+    "type": "divine_name_text",
+    "value": "Lord"
   },
   {
     "type": "paragraph_text",

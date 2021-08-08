@@ -143,7 +143,7 @@
     "verseNumber": 5,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "their swordsare weapons of violence."
+    "value": "their swords are weapons of violence."
   },
   {
     "type": "line_break"
@@ -246,7 +246,7 @@
     "verseNumber": 8,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "“Judah,your brothers will praise you;"
+    "value": "“Judah, your brothers will praise you;"
   },
   {
     "type": "line_break"
@@ -336,7 +336,7 @@
     "verseNumber": 10,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "until he to whom it belongsshall come"
+    "value": "until he to whom it belongs shall come"
   },
   {
     "type": "line_break"
@@ -472,7 +472,7 @@
     "verseNumber": 14,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "“Issachar is a rawboneddonkey"
+    "value": "“Issachar is a rawboned donkey"
   },
   {
     "type": "line_break"
@@ -545,7 +545,7 @@
     "verseNumber": 16,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "“Danwill provide justice for his people"
+    "value": "“Dan will provide justice for his people"
   },
   {
     "type": "line_break"
@@ -618,7 +618,27 @@
     "verseNumber": 18,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "“I look for your deliverance,."
+    "value": "“I look for your deliverance,"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 18,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 18,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "."
   },
   {
     "type": "line_break"
@@ -630,7 +650,7 @@
     "type": "stanza_start"
   },
   {
-    "sectionNumber": 2,
+    "sectionNumber": 4,
     "verseNumber": 18,
     "chapterNumber": null,
     "type": "line_text",
@@ -641,7 +661,7 @@
     "verseNumber": 19,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "“Gadwill be attacked by a band of raiders,"
+    "value": "“Gad will be attacked by a band of raiders,"
   },
   {
     "type": "line_break"
@@ -800,7 +820,7 @@
     "verseNumber": 24,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "his strong arms stayedlimber,"
+    "value": "his strong arms stayed limber,"
   },
   {
     "type": "line_break"
@@ -840,7 +860,7 @@
     "verseNumber": 25,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "because of the Almighty,who blesses you"
+    "value": "because of the Almighty, who blesses you"
   },
   {
     "type": "line_break"
@@ -900,7 +920,7 @@
     "verseNumber": 26,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "thanthe bounty of the age-old hills."
+    "value": "than the bounty of the age-old hills."
   },
   {
     "type": "line_break"
@@ -920,7 +940,7 @@
     "verseNumber": 26,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "on the brow of the prince amonghis brothers."
+    "value": "on the brow of the prince among his brothers."
   },
   {
     "type": "line_break"
@@ -1013,7 +1033,7 @@
     "verseNumber": 32,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "The field and the cave in it were bought from the Hittites.”"
+    "value": "The field and the cave in it were bought from the Hittites. ”"
   },
   {
     "type": "paragraph_end"

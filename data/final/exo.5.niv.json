@@ -7,7 +7,21 @@
     "verseNumber": 1,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Afterward Moses and Aaron went to Pharaoh and said, “This is what the, the God of Israel, says: ‘Let my people go, so that they may hold a festival to me in the wilderness.’ ”"
+    "value": "Afterward Moses and Aaron went to Pharaoh and said, “This is what the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 1,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 1,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ", the God of Israel, says: ‘Let my people go, so that they may hold a festival to me in the wilderness.’ ”"
   },
   {
     "type": "paragraph_end"
@@ -20,7 +34,35 @@
     "verseNumber": 2,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Pharaoh said, “Who is the, that I should obey him and let Israel go? I do not know theand I will not let Israel go.”"
+    "value": "Pharaoh said, “Who is the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 2,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 2,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ", that I should obey him and let Israel go? I do not know the"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 2,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 5,
+    "verseNumber": 2,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "and I will not let Israel go.”"
   },
   {
     "type": "paragraph_end"
@@ -33,7 +75,21 @@
     "verseNumber": 3,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then they said, “The God of the Hebrews has met with us. Now let us take a three-day journey into the wilderness to offer sacrifices to theour God, or he may strike us with plagues or with the sword.”"
+    "value": "Then they said, “The God of the Hebrews has met with us. Now let us take a three-day journey into the wilderness to offer sacrifices to the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 3,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 3,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "our God, or he may strike us with plagues or with the sword.”"
   },
   {
     "type": "paragraph_end"
@@ -161,7 +217,21 @@
     "verseNumber": 17,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Pharaoh said, “Lazy, that’s what you are—lazy! That is why you keep saying, ‘Let us go and sacrifice to the.’"
+    "value": "Pharaoh said, “Lazy, that’s what you are—lazy! That is why you keep saying, ‘Let us go and sacrifice to the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 17,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 17,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ".’"
   },
   {
     "sectionNumber": 1,
@@ -195,7 +265,21 @@
     "verseNumber": 21,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "and they said, “May thelook on you and judge you! You have made us obnoxious to Pharaoh and his officials and have put a sword in their hand to kill us.”"
+    "value": "and they said, “May the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 21,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 21,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "look on you and judge you! You have made us obnoxious to Pharaoh and his officials and have put a sword in their hand to kill us.”"
   },
   {
     "type": "paragraph_end"
@@ -208,7 +292,21 @@
     "verseNumber": 22,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Moses returned to theand said, “Why, Lord, why have you brought trouble on this people? Is this why you sent me?"
+    "value": "Moses returned to the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 22,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 22,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "and said, “Why, Lord, why have you brought trouble on this people? Is this why you sent me?"
   },
   {
     "sectionNumber": 1,

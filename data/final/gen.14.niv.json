@@ -7,7 +7,7 @@
     "verseNumber": 1,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "At the time when Amraphel was king of Shinar,Arioch king of Ellasar, Kedorlaomer king of Elam and Tidal king of Goyim,"
+    "value": "At the time when Amraphel was king of Shinar, Arioch king of Ellasar, Kedorlaomer king of Elam and Tidal king of Goyim,"
   },
   {
     "sectionNumber": 1,
@@ -109,7 +109,7 @@
     "verseNumber": 13,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "A man who had escaped came and reported this to Abram the Hebrew. Now Abram was living near the great trees of Mamre the Amorite, a brotherof Eshkol and Aner, all of whom were allied with Abram."
+    "value": "A man who had escaped came and reported this to Abram the Hebrew. Now Abram was living near the great trees of Mamre the Amorite, a brother of Eshkol and Aner, all of whom were allied with Abram."
   },
   {
     "sectionNumber": 1,
@@ -245,7 +245,21 @@
     "verseNumber": 22,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "But Abram said to the king of Sodom, “With raised hand I have sworn an oath to the, God Most High, Creator of heaven and earth,"
+    "value": "But Abram said to the king of Sodom, “With raised hand I have sworn an oath to the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 22,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 22,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ", God Most High, Creator of heaven and earth,"
   },
   {
     "sectionNumber": 1,

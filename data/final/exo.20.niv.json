@@ -27,7 +27,7 @@
     "verseNumber": 3,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "“You shall have no other gods beforeme."
+    "value": "“You shall have no other gods before me."
   },
   {
     "type": "line_break"
@@ -44,7 +44,27 @@
     "verseNumber": 5,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "You shall not bow down to them or worship them; for I, theyour God, am a jealous God, punishing the children for the sin of the parents to the third and fourth generation of those who hate me,"
+    "value": "You shall not bow down to them or worship them; for I, the"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "your God, am a jealous God, punishing the children for the sin of the parents to the third and fourth generation of those who hate me,"
   },
   {
     "sectionNumber": 1,
@@ -61,7 +81,47 @@
     "verseNumber": 7,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "“You shall not misuse the name of theyour God, for thewill not hold anyone guiltless who misuses his name."
+    "value": "“You shall not misuse the name of the"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 7,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 7,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "your God, for the"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 7,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 5,
+    "verseNumber": 7,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "will not hold anyone guiltless who misuses his name."
   },
   {
     "type": "line_break"
@@ -85,14 +145,74 @@
     "verseNumber": 10,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "but the seventh day is a sabbath to theyour God. On it you shall not do any work, neither you, nor your son or daughter, nor your male or female servant, nor your animals, nor any foreigner residing in your towns."
+    "value": "but the seventh day is a sabbath to the"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 10,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 10,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "your God. On it you shall not do any work, neither you, nor your son or daughter, nor your male or female servant, nor your animals, nor any foreigner residing in your towns."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 11,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "For in six days themade the heavens and the earth, the sea, and all that is in them, but he rested on the seventh day. Therefore theblessed the Sabbath day and made it holy."
+    "value": "For in six days the"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 11,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 11,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "made the heavens and the earth, the sea, and all that is in them, but he rested on the seventh day. Therefore the"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 11,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 5,
+    "verseNumber": 11,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "blessed the Sabbath day and made it holy."
   },
   {
     "type": "line_break"
@@ -102,7 +222,27 @@
     "verseNumber": 12,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "“Honor your father and your mother, so that you may live long in the land theyour God is giving you."
+    "value": "“Honor your father and your mother, so that you may live long in the land the"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 12,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 12,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "your God is giving you."
   },
   {
     "type": "line_break"
@@ -220,7 +360,21 @@
     "verseNumber": 22,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then thesaid to Moses, “Tell the Israelites this: ‘You have seen for yourselves that I have spoken to you from heaven:"
+    "value": "Then the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 22,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 22,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "said to Moses, “Tell the Israelites this: ‘You have seen for yourselves that I have spoken to you from heaven:"
   },
   {
     "sectionNumber": 1,

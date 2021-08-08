@@ -14,7 +14,21 @@
     "verseNumber": 2,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "There the angel of theappeared to him in flames of fire from within a bush. Moses saw that though the bush was on fire it did not burn up."
+    "value": "There the angel of the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 2,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 2,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "appeared to him in flames of fire from within a bush. Moses saw that though the bush was on fire it did not burn up."
   },
   {
     "sectionNumber": 1,
@@ -34,7 +48,21 @@
     "verseNumber": 4,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "When thesaw that he had gone over to look, God called to him from within the bush, “Moses! Moses!”"
+    "value": "When the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 4,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 4,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "saw that he had gone over to look, God called to him from within the bush, “Moses! Moses!”"
   },
   {
     "type": "paragraph_end"
@@ -43,7 +71,7 @@
     "type": "paragraph_start"
   },
   {
-    "sectionNumber": 2,
+    "sectionNumber": 4,
     "verseNumber": 4,
     "chapterNumber": null,
     "type": "paragraph_text",
@@ -67,7 +95,7 @@
     "verseNumber": 6,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then he said, “I am the God of your father,the God of Abraham, the God of Isaac and the God of Jacob.” At this, Moses hid his face, because he was afraid to look at God."
+    "value": "Then he said, “I am the God of your father, the God of Abraham, the God of Isaac and the God of Jacob.” At this, Moses hid his face, because he was afraid to look at God."
   },
   {
     "type": "paragraph_end"
@@ -80,7 +108,21 @@
     "verseNumber": 7,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Thesaid, “I have indeed seen the misery of my people in Egypt. I have heard them crying out because of their slave drivers, and I am concerned about their suffering."
+    "value": "The"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 7,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 7,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "said, “I have indeed seen the misery of my people in Egypt. I have heard them crying out because of their slave drivers, and I am concerned about their suffering."
   },
   {
     "sectionNumber": 1,
@@ -127,7 +169,7 @@
     "verseNumber": 12,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "And God said, “I will be with you. And this will be the sign to you that it is I who have sent you: When you have brought the people out of Egypt, youwill worship God on this mountain.”"
+    "value": "And God said, “I will be with you. And this will be the sign to you that it is I who have sent you: When you have brought the people out of Egypt, you will worship God on this mountain.”"
   },
   {
     "type": "paragraph_end"
@@ -153,7 +195,35 @@
     "verseNumber": 14,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "God said to Moses, “.This is what you are to say to the Israelites: ‘has sent me to you.’ ”"
+    "value": "God said to Moses, “"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 14,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 14,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ". This is what you are to say to the Israelites: ‘"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 14,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 5,
+    "verseNumber": 14,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "has sent me to you.’ ”"
   },
   {
     "type": "paragraph_end"
@@ -166,7 +236,21 @@
     "verseNumber": 15,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "God also said to Moses, “Say to the Israelites, ‘The,the God of your fathers—the God of Abraham, the God of Isaac and the God of Jacob—has sent me to you.’"
+    "value": "God also said to Moses, “Say to the Israelites, ‘The"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 15,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 15,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ", the God of your fathers—the God of Abraham, the God of Isaac and the God of Jacob—has sent me to you.’"
   },
   {
     "type": "paragraph_end"
@@ -175,7 +259,7 @@
     "type": "stanza_start"
   },
   {
-    "sectionNumber": 2,
+    "sectionNumber": 4,
     "verseNumber": 15,
     "chapterNumber": null,
     "type": "line_text",
@@ -185,7 +269,7 @@
     "type": "line_break"
   },
   {
-    "sectionNumber": 3,
+    "sectionNumber": 5,
     "verseNumber": 15,
     "chapterNumber": null,
     "type": "line_text",
@@ -195,7 +279,7 @@
     "type": "line_break"
   },
   {
-    "sectionNumber": 4,
+    "sectionNumber": 6,
     "verseNumber": 15,
     "chapterNumber": null,
     "type": "line_text",
@@ -215,7 +299,21 @@
     "verseNumber": 16,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "“Go, assemble the elders of Israel and say to them, ‘The, the God of your fathers—the God of Abraham, Isaac and Jacob—appeared to me and said: I have watched over you and have seen what has been done to you in Egypt."
+    "value": "“Go, assemble the elders of Israel and say to them, ‘The"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 16,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 16,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ", the God of your fathers—the God of Abraham, Isaac and Jacob—appeared to me and said: I have watched over you and have seen what has been done to you in Egypt."
   },
   {
     "sectionNumber": 1,
@@ -235,7 +333,35 @@
     "verseNumber": 18,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "“The elders of Israel will listen to you. Then you and the elders are to go to the king of Egypt and say to him, ‘The, the God of the Hebrews, has met with us. Let us take a three-day journey into the wilderness to offer sacrifices to theour God.’"
+    "value": "“The elders of Israel will listen to you. Then you and the elders are to go to the king of Egypt and say to him, ‘The"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 18,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 18,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ", the God of the Hebrews, has met with us. Let us take a three-day journey into the wilderness to offer sacrifices to the"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 18,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 5,
+    "verseNumber": 18,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "our God.’"
   },
   {
     "sectionNumber": 1,

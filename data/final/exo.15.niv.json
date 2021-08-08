@@ -7,7 +7,21 @@
     "verseNumber": 1,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then Moses and the Israelites sang this song to the:"
+    "value": "Then Moses and the Israelites sang this song to the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 1,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 1,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ":"
   },
   {
     "type": "paragraph_end"
@@ -16,17 +30,37 @@
     "type": "stanza_start"
   },
   {
-    "sectionNumber": 2,
+    "sectionNumber": 4,
     "verseNumber": 1,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "“I will sing to the,"
+    "value": "“I will sing to the"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 5,
+    "verseNumber": 1,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 6,
+    "verseNumber": 1,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": ","
   },
   {
     "type": "line_break"
   },
   {
-    "sectionNumber": 3,
+    "sectionNumber": 7,
     "verseNumber": 1,
     "chapterNumber": null,
     "type": "line_text",
@@ -36,7 +70,7 @@
     "type": "line_break"
   },
   {
-    "sectionNumber": 4,
+    "sectionNumber": 8,
     "verseNumber": 1,
     "chapterNumber": null,
     "type": "line_text",
@@ -46,7 +80,7 @@
     "type": "line_break"
   },
   {
-    "sectionNumber": 5,
+    "sectionNumber": 9,
     "verseNumber": 1,
     "chapterNumber": null,
     "type": "line_text",
@@ -62,7 +96,7 @@
     "type": "stanza_start"
   },
   {
-    "sectionNumber": 6,
+    "sectionNumber": 10,
     "verseNumber": 1,
     "chapterNumber": null,
     "type": "line_text",
@@ -73,13 +107,33 @@
     "verseNumber": 2,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "“Theis my strength and my defense;"
+    "value": "“The"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 2,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 2,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "is my strength and my defense ;"
   },
   {
     "type": "line_break"
   },
   {
-    "sectionNumber": 2,
+    "sectionNumber": 4,
     "verseNumber": 2,
     "chapterNumber": null,
     "type": "line_text",
@@ -89,7 +143,7 @@
     "type": "line_break"
   },
   {
-    "sectionNumber": 3,
+    "sectionNumber": 5,
     "verseNumber": 2,
     "chapterNumber": null,
     "type": "line_text",
@@ -99,7 +153,7 @@
     "type": "line_break"
   },
   {
-    "sectionNumber": 4,
+    "sectionNumber": 6,
     "verseNumber": 2,
     "chapterNumber": null,
     "type": "line_text",
@@ -113,17 +167,57 @@
     "verseNumber": 3,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "Theis a warrior;"
+    "value": "The"
   },
   {
-    "type": "line_break"
+    "type": "stanza_end"
   },
   {
     "sectionNumber": 2,
     "verseNumber": 3,
     "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 3,
+    "chapterNumber": null,
     "type": "line_text",
-    "value": "theis his name."
+    "value": "is a warrior;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 3,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "the"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 5,
+    "verseNumber": 3,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 6,
+    "verseNumber": 3,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "is his name."
   },
   {
     "type": "line_break"
@@ -193,13 +287,33 @@
     "verseNumber": 6,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "Your right hand,,"
+    "value": "Your right hand,"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 6,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 6,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": ","
   },
   {
     "type": "line_break"
   },
   {
-    "sectionNumber": 2,
+    "sectionNumber": 4,
     "verseNumber": 6,
     "chapterNumber": null,
     "type": "line_text",
@@ -209,17 +323,37 @@
     "type": "line_break"
   },
   {
-    "sectionNumber": 3,
+    "sectionNumber": 5,
     "verseNumber": 6,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "Your right hand,,"
+    "value": "Your right hand,"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 6,
+    "verseNumber": 6,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 7,
+    "verseNumber": 6,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": ","
   },
   {
     "type": "line_break"
   },
   {
-    "sectionNumber": 4,
+    "sectionNumber": 8,
     "verseNumber": 6,
     "chapterNumber": null,
     "type": "line_text",
@@ -235,7 +369,7 @@
     "type": "stanza_start"
   },
   {
-    "sectionNumber": 5,
+    "sectionNumber": 9,
     "verseNumber": 6,
     "chapterNumber": null,
     "type": "line_text",
@@ -436,27 +570,27 @@
     "verseNumber": 11,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "is like you,?"
+    "value": "is like you,"
   },
   {
-    "type": "line_break"
+    "type": "stanza_end"
   },
   {
     "sectionNumber": 3,
     "verseNumber": 11,
     "chapterNumber": null,
-    "type": "line_text",
-    "value": "Who is like you—"
+    "type": "divine_name_text",
+    "value": "Lord"
   },
   {
-    "type": "line_break"
+    "type": "stanza_start"
   },
   {
     "sectionNumber": 4,
     "verseNumber": 11,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "majestic in holiness,"
+    "value": "?"
   },
   {
     "type": "line_break"
@@ -466,13 +600,33 @@
     "verseNumber": 11,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "awesome in glory,"
+    "value": "Who is like you—"
   },
   {
     "type": "line_break"
   },
   {
     "sectionNumber": 6,
+    "verseNumber": 11,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "majestic in holiness,"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "sectionNumber": 7,
+    "verseNumber": 11,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "awesome in glory,"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "sectionNumber": 8,
     "verseNumber": 11,
     "chapterNumber": null,
     "type": "line_text",
@@ -488,7 +642,7 @@
     "type": "stanza_start"
   },
   {
-    "sectionNumber": 7,
+    "sectionNumber": 9,
     "verseNumber": 11,
     "chapterNumber": null,
     "type": "line_text",
@@ -599,7 +753,7 @@
     "verseNumber": 15,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "the peopleof Canaan will melt away;"
+    "value": "the people of Canaan will melt away;"
   },
   {
     "type": "line_break"
@@ -639,17 +793,37 @@
     "verseNumber": 16,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "until your people pass by,,"
+    "value": "until your people pass by,"
   },
   {
-    "type": "line_break"
+    "type": "stanza_end"
   },
   {
     "sectionNumber": 5,
     "verseNumber": 16,
     "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 6,
+    "verseNumber": 16,
+    "chapterNumber": null,
     "type": "line_text",
-    "value": "until the people you boughtpass by."
+    "value": ","
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "sectionNumber": 7,
+    "verseNumber": 16,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "until the people you bought pass by."
   },
   {
     "type": "line_break"
@@ -679,13 +853,33 @@
     "verseNumber": 17,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "the place,, you made for your dwelling,"
+    "value": "the place,"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 17,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 5,
+    "verseNumber": 17,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": ", you made for your dwelling,"
   },
   {
     "type": "line_break"
   },
   {
-    "sectionNumber": 4,
+    "sectionNumber": 6,
     "verseNumber": 17,
     "chapterNumber": null,
     "type": "line_text",
@@ -701,7 +895,7 @@
     "type": "stanza_start"
   },
   {
-    "sectionNumber": 5,
+    "sectionNumber": 7,
     "verseNumber": 17,
     "chapterNumber": null,
     "type": "line_text",
@@ -712,13 +906,33 @@
     "verseNumber": 18,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "“Thereigns"
+    "value": "“The"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 18,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 18,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "reigns"
   },
   {
     "type": "line_break"
   },
   {
-    "sectionNumber": 2,
+    "sectionNumber": 4,
     "verseNumber": 18,
     "chapterNumber": null,
     "type": "line_text",
@@ -738,7 +952,21 @@
     "verseNumber": 19,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "When Pharaoh’s horses, chariots and horsemenwent into the sea, thebrought the waters of the sea back over them, but the Israelites walked through the sea on dry ground."
+    "value": "When Pharaoh’s horses, chariots and horsemen went into the sea, the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 19,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 19,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "brought the waters of the sea back over them, but the Israelites walked through the sea on dry ground."
   },
   {
     "sectionNumber": 1,
@@ -765,13 +993,33 @@
     "verseNumber": 21,
     "chapterNumber": null,
     "type": "line_text",
-    "value": "“Sing to the,"
+    "value": "“Sing to the"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 21,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 21,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": ","
   },
   {
     "type": "line_break"
   },
   {
-    "sectionNumber": 3,
+    "sectionNumber": 5,
     "verseNumber": 21,
     "chapterNumber": null,
     "type": "line_text",
@@ -781,7 +1029,7 @@
     "type": "line_break"
   },
   {
-    "sectionNumber": 4,
+    "sectionNumber": 6,
     "verseNumber": 21,
     "chapterNumber": null,
     "type": "line_text",
@@ -791,7 +1039,7 @@
     "type": "line_break"
   },
   {
-    "sectionNumber": 5,
+    "sectionNumber": 7,
     "verseNumber": 21,
     "chapterNumber": null,
     "type": "line_text",
@@ -818,7 +1066,7 @@
     "verseNumber": 23,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "When they came to Marah, they could not drink its water because it was bitter. (That is why the place is called Marah.)"
+    "value": "When they came to Marah, they could not drink its water because it was bitter. (That is why the place is called Marah. )"
   },
   {
     "sectionNumber": 1,
@@ -838,7 +1086,35 @@
     "verseNumber": 25,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then Moses cried out to the, and theshowed him a piece of wood. He threw it into the water, and the water became fit to drink."
+    "value": "Then Moses cried out to the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 25,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 25,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ", and the"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 25,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 5,
+    "verseNumber": 25,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "showed him a piece of wood. He threw it into the water, and the water became fit to drink."
   },
   {
     "type": "paragraph_end"
@@ -847,18 +1123,60 @@
     "type": "paragraph_start"
   },
   {
-    "sectionNumber": 2,
+    "sectionNumber": 6,
     "verseNumber": 25,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "There theissued a ruling and instruction for them and put them to the test."
+    "value": "There the"
+  },
+  {
+    "sectionNumber": 7,
+    "verseNumber": 25,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 8,
+    "verseNumber": 25,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "issued a ruling and instruction for them and put them to the test."
   },
   {
     "sectionNumber": 1,
     "verseNumber": 26,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "He said, “If you listen carefully to theyour God and do what is right in his eyes, if you pay attention to his commands and keep all his decrees, I will not bring on you any of the diseases I brought on the Egyptians, for I am the, who heals you.”"
+    "value": "He said, “If you listen carefully to the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 26,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 26,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "your God and do what is right in his eyes, if you pay attention to his commands and keep all his decrees, I will not bring on you any of the diseases I brought on the Egyptians, for I am the"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 26,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 5,
+    "verseNumber": 26,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": ", who heals you.”"
   },
   {
     "type": "paragraph_end"

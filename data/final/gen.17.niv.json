@@ -7,7 +7,21 @@
     "verseNumber": 1,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "When Abram was ninety-nine years old, theappeared to him and said, “I am God Almighty; walk before me faithfully and be blameless."
+    "value": "When Abram was ninety-nine years old, the"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 1,
+    "chapterNumber": null,
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 1,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "appeared to him and said, “I am God Almighty ; walk before me faithfully and be blameless."
   },
   {
     "sectionNumber": 1,
@@ -41,7 +55,7 @@
     "verseNumber": 5,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "No longer will you be called Abram; your name will be Abraham,for I have made you a father of many nations."
+    "value": "No longer will you be called Abram ; your name will be Abraham, for I have made you a father of many nations."
   },
   {
     "sectionNumber": 1,
@@ -163,7 +177,7 @@
     "verseNumber": 19,
     "chapterNumber": null,
     "type": "paragraph_text",
-    "value": "Then God said, “Yes, but your wife Sarah will bear you a son, and you will call him Isaac.I will establish my covenant with him as an everlasting covenant for his descendants after him."
+    "value": "Then God said, “Yes, but your wife Sarah will bear you a son, and you will call him Isaac. I will establish my covenant with him as an everlasting covenant for his descendants after him."
   },
   {
     "sectionNumber": 1,

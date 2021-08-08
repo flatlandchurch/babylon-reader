@@ -56,6 +56,10 @@
     "value": "You shall not bow down to them or worship them; for I, the"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "line_text",
     "value": "your God, am a jealous God, punishing the children for the sin of the parents to the third and fourth generation of those who hate me,"
   },
@@ -83,8 +87,16 @@
     "value": "“You shall not misuse the name of the"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "line_text",
     "value": "your God, for the"
+  },
+  {
+    "type": "divine_name_text",
+    "value": "Lord"
   },
   {
     "type": "line_text",
@@ -122,6 +134,10 @@
     "value": "but the seventh day is a sabbath to the"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "line_text",
     "value": "your God. On it you shall not do any work, neither you, nor your son or daughter, nor your male or female servant, nor your animals, nor any foreigner residing in your towns."
   },
@@ -134,8 +150,16 @@
     "value": "For in six days the"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "line_text",
     "value": "made the heavens and the earth, the sea, and all that is in them, but he rested on the seventh day. Therefore the"
+  },
+  {
+    "type": "divine_name_text",
+    "value": "Lord"
   },
   {
     "type": "line_text",
@@ -155,6 +179,10 @@
   {
     "type": "line_text",
     "value": "“Honor your father and your mother, so that you may live long in the land the"
+  },
+  {
+    "type": "divine_name_text",
+    "value": "Lord"
   },
   {
     "type": "line_text",
@@ -317,6 +345,10 @@
   {
     "type": "paragraph_text",
     "value": "Then the"
+  },
+  {
+    "type": "divine_name_text",
+    "value": "Lord"
   },
   {
     "type": "paragraph_text",

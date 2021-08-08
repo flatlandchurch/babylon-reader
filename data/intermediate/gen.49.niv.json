@@ -545,6 +545,10 @@
     "value": "“I look for your deliverance,"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "line_text",
     "value": "."
   },

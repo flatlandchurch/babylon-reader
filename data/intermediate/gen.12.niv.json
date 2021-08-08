@@ -11,6 +11,10 @@
     "value": "The"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "paragraph_text",
     "value": "had said to Abram, “Go from your country, your people and your father’s household to the land I will show you."
   },
@@ -105,6 +109,10 @@
     "value": "So Abram went, as the"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "paragraph_text",
     "value": "had told him; and Lot went with him. Abram was seventy-five years old when he set out from Harran."
   },
@@ -143,12 +151,20 @@
     "value": "The"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "paragraph_text",
     "value": "appeared to Abram and said, “To your offspring"
   },
   {
     "type": "paragraph_text",
     "value": "I will give this land.” So he built an altar there to the"
+  },
+  {
+    "type": "divine_name_text",
+    "value": "Lord"
   },
   {
     "type": "paragraph_text",
@@ -173,8 +189,16 @@
     "value": "From there he went on toward the hills east of Bethel and pitched his tent, with Bethel on the west and Ai on the east. There he built an altar to the"
   },
   {
+    "type": "divine_name_text",
+    "value": "Lord"
+  },
+  {
     "type": "paragraph_text",
     "value": "and called on the name of the"
+  },
+  {
+    "type": "divine_name_text",
+    "value": "Lord"
   },
   {
     "type": "paragraph_text",
@@ -291,6 +315,10 @@
   {
     "type": "paragraph_text",
     "value": "But the"
+  },
+  {
+    "type": "divine_name_text",
+    "value": "Lord"
   },
   {
     "type": "paragraph_text",
