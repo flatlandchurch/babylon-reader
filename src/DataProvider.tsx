@@ -33,7 +33,7 @@ export type Text =
 type Data = {
   plan: Day[];
   preferredShowVerses: boolean;
-  setPreferredShoVerses: (setting: boolean) => void;
+  setPreferredShowVerses: (setting: boolean) => void;
   preferredVersion: 'niv' | 'nasb' | 'nlt';
   setPreferredVersion: (version: 'niv' | 'nasb' | 'nlt') => void;
   preferredDivineName: 'lord' | 'yhwh' | 'yahweh';
@@ -52,7 +52,7 @@ const DataProvider = ({ children }) => {
   const [preferredDivineName, setPreferredDivineName] = useState<Data['preferredDivineName']>(
     (window.localStorage.getItem('br:divine-name') as Data['preferredDivineName']) || 'lord',
   );
-  const [preferredShowVerses, setPreferredShoVerses] = useState<boolean>(
+  const [preferredShowVerses, setPreferredShowVerses] = useState<boolean>(
     JSON.parse(window.localStorage.getItem('br:verses') || 'false') as boolean,
   );
 
@@ -77,7 +77,7 @@ const DataProvider = ({ children }) => {
         preferredDivineName,
         setPreferredDivineName,
         preferredShowVerses,
-        setPreferredShoVerses,
+        setPreferredShowVerses,
       }}
     >
       {children}
