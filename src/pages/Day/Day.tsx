@@ -63,6 +63,7 @@ const CompleteButton = styled('button')`
   appearance: none;
   border: 0;
   margin: 24px auto 0;
+  cursor: pointer;
 
   .material-icons {
     font-size: 20px;
@@ -77,9 +78,9 @@ const parseChapter = (ch: string) => {
   return `${range.book} ${range.start.chapter}`;
 };
 
-const Day = () => {
+const Day = ({ params }) => {
   const plan = usePlan();
-  const [, day] = window.location.pathname.replace(/^\//, '').split('/');
+  const { day } = params;
   const dayPlan = plan[parseInt(day) - 1] || ({} as DayType);
   const { texts, loading } = useTexts(dayPlan ? dayPlan.chapters : []);
   const copyright = useCopyright();
@@ -102,7 +103,7 @@ const Day = () => {
           </section>
         ))}
       {!loading && (
-        <CompleteButton>
+        <CompleteButton onClick={() => {}}>
           <span className="material-icons">check</span>
           <span>Mark Complete</span>
         </CompleteButton>

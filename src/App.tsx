@@ -1,6 +1,7 @@
 import { h } from 'preact';
 import { styled } from 'goober';
 import { useEffect, useState } from 'preact/hooks';
+import { Route, Link as RouterLink } from 'wouter-preact';
 
 import Home from './pages/Home';
 import handleClick from './handleClick';
@@ -50,20 +51,26 @@ const App = () => {
     <DataProvider>
       <Wrapper>
         <Header>
-          <Link href="/account" onClick={handleClick('/account')}>
-            <span className="material-icons-outlined">account_circle</span>
-          </Link>
-          {currentRoute !== '/' && (
-            <Link href="/" onClick={handleClick('/')}>
-              <span className="material-icons-outlined">home</span>
+          <RouterLink href="/account">
+            <Link>
+              <span className="material-icons-outlined">account_circle</span>
             </Link>
+          </RouterLink>
+          {currentRoute !== '/' && (
+            <RouterLink href="/">
+              <Link href="/">
+                <span className="material-icons-outlined">home</span>
+              </Link>
+            </RouterLink>
           )}
-          <Link href="/settings" onClick={handleClick('/settings')}>
-            <span className="material-icons-outlined">settings</span>
-          </Link>
+          <RouterLink href="/settings">
+            <Link href="/settings">
+              <span className="material-icons-outlined">settings</span>
+            </Link>
+          </RouterLink>
         </Header>
-        {currentRoute === '/' && <Home />}
-        {currentRoute.includes('/day') && <Day />}
+        <Route path="/" component={Home} />
+        <Route path="/day/:day" component={Day} />
       </Wrapper>
     </DataProvider>
   );
