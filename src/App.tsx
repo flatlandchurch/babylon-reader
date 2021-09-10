@@ -1,10 +1,9 @@
 import { h } from 'preact';
 import { styled } from 'goober';
 import { useEffect, useState } from 'preact/hooks';
-import { Route, Link as RouterLink } from 'wouter-preact';
+import { Route, Link as RouterLink, useLocation } from 'wouter-preact';
 
 import Home from './pages/Home';
-import handleClick from './handleClick';
 import DataProvider from './DataProvider';
 import Day from './pages/Day';
 
@@ -34,18 +33,7 @@ const Link = styled('a')`
 `;
 
 const App = () => {
-  const [currentRoute, setCurrentRoute] = useState(window.location.pathname);
-  const [prevRoute, setPrevRoute] = useState(null);
-
-  useEffect(() => {
-    const handlePush = ({ detail }: CustomEvent) => {
-      setCurrentRoute(detail.url);
-    };
-
-    window.addEventListener('pushstate', handlePush);
-
-    return () => window.removeEventListener('pushstate', handlePush);
-  }, []);
+  const [pathname] = useLocation();
 
   return (
     <DataProvider>
@@ -56,7 +44,7 @@ const App = () => {
               <span className="material-icons-outlined">account_circle</span>
             </Link>
           </RouterLink>
-          {currentRoute !== '/' && (
+          {pathname !== '/' && (
             <RouterLink href="/">
               <Link href="/">
                 <span className="material-icons-outlined">home</span>
