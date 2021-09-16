@@ -1,8 +1,6 @@
 import { h } from 'preact';
 import { styled } from 'goober';
-import shouldIntercept from 'click-should-be-intercepted-for-navigation';
-
-import handleClick from '../../handleClick';
+import { Link as RouterLink } from 'wouter-preact';
 
 const Row = styled('article')`
   padding: 16px 24px;
@@ -44,7 +42,7 @@ const Bubble = styled('div')`
   border-radius: 50%;
 `;
 
-const Link = styled('a')`
+const Link = styled(RouterLink)`
   color: #303030;
   text-decoration: none;
   display: block;
@@ -56,7 +54,7 @@ const Link = styled('a')`
 
 const Day = ({ day }) => {
   return (
-    <Link href={`/day/${day.day}`} onClick={handleClick(`/day/${day.day}`)}>
+    <Link href={`/day/${day.day}`}>
       <Row key={day.day}>
         <Bubble />
         <TitleCol>
