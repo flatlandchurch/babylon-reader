@@ -1,6 +1,5 @@
 import { h } from 'preact';
 import { styled } from 'goober';
-import { useEffect, useState } from 'preact/hooks';
 import { Route, Link as RouterLink, useLocation } from 'wouter-preact';
 
 import Home from './pages/Home';
@@ -51,11 +50,6 @@ const App = () => {
               </Link>
             </RouterLink>
           )}
-          <RouterLink href="/settings">
-            <Link href="/settings">
-              <span className="material-icons-outlined">settings</span>
-            </Link>
-          </RouterLink>
         </Header>
         <Route path="/" component={Home} />
         <Route path="/day/:day" component={Day} />
