@@ -38,24 +38,26 @@ const App = () => {
   const [isAuthed, setIsAuthed] = useState<boolean | 'unknown'>('unknown');
 
   useEffect(() => {
-    fetch('/.netlify/functions/validate')
-      .then((d) => {
+    fetch('/.netlify/functions/validate').then((d) => {
+      if (d.status === 400) {
         setIsAuthed(false);
-      })
+      } else {
+        setIsAuthed(true);
+      }
+    });
   }, []);
 
   return (
     <DataProvider>
       <Wrapper>
         <Header>
-          {
-            isAuthed === true &&
+          {isAuthed === true && (
             <RouterLink href="/account">
               <Link>
                 <span className="material-icons-outlined">account_circle</span>
               </Link>
             </RouterLink>
-          }
+          )}
           {pathname !== '/' && (
             <RouterLink href="/">
               <Link href="/">
@@ -64,17 +66,13 @@ const App = () => {
             </RouterLink>
           )}
         </Header>
-        {
-          !isAuthed &&
-            <Auth />
-        }
-        {
-          isAuthed === true &&
-            <Fragment>
-              <Route path="/" component={Home} />
-              <Route path="/day/:day" component={Day} />
-            </Fragment>
-        }
+        {!isAuthed && <Auth />}
+        {isAuthed === true && (
+          <Fragment>
+            <Route path="/" component={Home} />
+            <Route path="/day/:day" component={Day} />
+          </Fragment>
+        )}
       </Wrapper>
     </DataProvider>
   );
