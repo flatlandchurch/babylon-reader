@@ -4,3 +4,4 @@ yarn-error.log*
 /public/data
 /public/main.js
 .netlify
+.env

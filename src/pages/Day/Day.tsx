@@ -1,4 +1,5 @@
 import { h } from 'preact';
+import { useEffect, useState } from 'preact/hooks';
 import { styled } from 'goober';
 import { createRegex, extractRangeFromMatch } from 'verse-reference-regex';
 
@@ -84,6 +85,10 @@ const Day = ({ params }) => {
   const dayPlan = plan[parseInt(day) - 1] || ({} as DayType);
   const { texts, loading } = useTexts(dayPlan ? dayPlan.chapters : []);
   const copyright = useCopyright();
+
+  const handleComplete = async () => {
+
+  };
 
   return (
     <Article>
