@@ -26,7 +26,7 @@ const handler: Handler = async (event, context) => {
 
   const token = await jwt.sign({ email }, EMAIL_TOKEN);
 
-  sgMail.send({
+  await sgMail.send({
     html: `<p>Hey there!</p><p>We're so excited for you to read the Bible with us.</p><p><a href="https://babylon.flatland.church/auth?token=${token}">Here's your magic link.</a> Just click it and you'll be logged in!</p><p>~ Flatland Team</p>`,
     to: email,
     from: 'no-reply@flatland.church',
