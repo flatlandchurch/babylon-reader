@@ -11,7 +11,7 @@ const BREAK = { type: 'break' };
 // This way of approaching this comes straight
 // from Josh Duff (https://github.com/TehShrike/world-english-bible/blob/master/parse-html.js)
 const paragraphs = ['p', 'pi', 'nb'];
-const lines = ['li', 'li1', 'mi', 'm', 'q1', 'q2'];
+const lines = ['li', 'li1', 'li2', 'mi', 'm', 'q1', 'q2'];
 const breaks = ['b'];
 const headers = ['d'];
 const textSelector = [...paragraphs, ...lines, ...breaks, ...headers]

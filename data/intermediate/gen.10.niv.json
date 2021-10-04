@@ -34,6 +34,13 @@
   },
   {
     "type": "line_text",
+    "value": "Gomer, Magog, Madai, Javan, Tubal, Meshek and Tiras."
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
     "value": ""
   },
   {
@@ -43,6 +50,13 @@
   {
     "type": "line_text",
     "value": "The sons of Gomer:"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": "Ashkenaz, Riphath and Togarmah."
   },
   {
     "type": "line_break"
@@ -64,6 +78,25 @@
   },
   {
     "type": "line_text",
+    "value": "Elishah, Tarshish, the Kittites and the Rodanites."
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 5
+  },
+  {
+    "type": "line_text",
+    "value": "(From these the maritime peoples spread out into their territories by their clans within their nations, each with its own language.)"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
     "value": ""
   },
   {
@@ -73,6 +106,13 @@
   {
     "type": "line_text",
     "value": "The sons of Ham:"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": "Cush, Egypt, Put and Canaan."
   },
   {
     "type": "line_break"
@@ -94,7 +134,21 @@
   },
   {
     "type": "line_text",
+    "value": "Seba, Havilah, Sabtah, Raamah and Sabteka."
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
     "value": "The sons of Raamah:"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": "Sheba and Dedan."
   },
   {
     "type": "line_break"
@@ -204,6 +258,21 @@
   },
   {
     "type": "line_text",
+    "value": "the Ludites, Anamites, Lehabites, Naphtuhites,"
+  },
+  {
+    "type": "verse_number",
+    "value": 14
+  },
+  {
+    "type": "line_text",
+    "value": "Pathrusites, Kasluhites (from whom the Philistines came) and Caphtorites."
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
     "value": ""
   },
   {
@@ -213,6 +282,41 @@
   {
     "type": "line_text",
     "value": "Canaan was the father of"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": "Sidon his firstborn,"
+  },
+  {
+    "type": "line_text",
+    "value": "and of the Hittites,"
+  },
+  {
+    "type": "verse_number",
+    "value": 16
+  },
+  {
+    "type": "line_text",
+    "value": "Jebusites, Amorites, Girgashites,"
+  },
+  {
+    "type": "verse_number",
+    "value": 17
+  },
+  {
+    "type": "line_text",
+    "value": "Hivites, Arkites, Sinites,"
+  },
+  {
+    "type": "verse_number",
+    "value": 18
+  },
+  {
+    "type": "line_text",
+    "value": "Arvadites, Zemarites and Hamathites."
   },
   {
     "type": "line_break"
@@ -298,6 +402,13 @@
   },
   {
     "type": "line_text",
+    "value": "Elam, Ashur, Arphaxad, Lud and Aram."
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
     "value": ""
   },
   {
@@ -307,6 +418,13 @@
   {
     "type": "line_text",
     "value": "The sons of Aram:"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": "Uz, Hul, Gether and Meshek."
   },
   {
     "type": "line_break"
@@ -332,6 +450,13 @@
   },
   {
     "type": "line_text",
+    "value": "and Shelah the father of Eber."
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
     "value": ""
   },
   {
@@ -347,6 +472,17 @@
   },
   {
     "type": "line_text",
+    "value": "One was named Peleg,"
+  },
+  {
+    "type": "line_text",
+    "value": "because in his time the earth was divided; his brother was named Joktan."
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
     "value": ""
   },
   {
@@ -356,6 +492,37 @@
   {
     "type": "line_text",
     "value": "Joktan was the father of"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": "Almodad, Sheleph, Hazarmaveth, Jerah,"
+  },
+  {
+    "type": "verse_number",
+    "value": 27
+  },
+  {
+    "type": "line_text",
+    "value": "Hadoram, Uzal, Diklah,"
+  },
+  {
+    "type": "verse_number",
+    "value": 28
+  },
+  {
+    "type": "line_text",
+    "value": "Obal, Abimael, Sheba,"
+  },
+  {
+    "type": "verse_number",
+    "value": 29
+  },
+  {
+    "type": "line_text",
+    "value": "Ophir, Havilah and Jobab. All these were sons of Joktan."
   },
   {
     "type": "line_break"

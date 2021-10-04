@@ -33,11 +33,31 @@
     "type": "line_break"
   },
   {
+    "sectionNumber": 2,
+    "verseNumber": 2,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Gomer, Magog, Madai, Javan, Tubal, Meshek and Tiras."
+  },
+  {
+    "type": "line_break"
+  },
+  {
     "sectionNumber": 1,
     "verseNumber": 3,
     "chapterNumber": null,
     "type": "line_text",
     "value": "The sons of Gomer:"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 3,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Ashkenaz, Riphath and Togarmah."
   },
   {
     "type": "line_break"
@@ -53,11 +73,38 @@
     "type": "line_break"
   },
   {
+    "sectionNumber": 2,
+    "verseNumber": 4,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Elishah, Tarshish, the Kittites and the Rodanites. "
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "(From these the maritime peoples spread out into their territories by their clans within their nations, each with its own language.)"
+  },
+  {
+    "type": "line_break"
+  },
+  {
     "sectionNumber": 1,
     "verseNumber": 6,
     "chapterNumber": null,
     "type": "line_text",
     "value": "The sons of Ham:"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 6,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Cush, Egypt, Put and Canaan."
   },
   {
     "type": "line_break"
@@ -77,7 +124,27 @@
     "verseNumber": 7,
     "chapterNumber": null,
     "type": "line_text",
+    "value": "Seba, Havilah, Sabtah, Raamah and Sabteka."
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 7,
+    "chapterNumber": null,
+    "type": "line_text",
     "value": "The sons of Raamah:"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 7,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Sheba and Dedan."
   },
   {
     "type": "line_break"
@@ -181,11 +248,59 @@
     "type": "line_break"
   },
   {
+    "sectionNumber": 2,
+    "verseNumber": 13,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "the Ludites, Anamites, Lehabites, Naphtuhites,"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 14,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Pathrusites, Kasluhites (from whom the Philistines came) and Caphtorites."
+  },
+  {
+    "type": "line_break"
+  },
+  {
     "sectionNumber": 1,
     "verseNumber": 15,
     "chapterNumber": null,
     "type": "line_text",
     "value": "Canaan was the father of"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 15,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Sidon his firstborn, and of the Hittites,"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 16,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Jebusites, Amorites, Girgashites,"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 17,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Hivites, Arkites, Sinites,"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 18,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Arvadites, Zemarites and Hamathites."
   },
   {
     "type": "line_break"
@@ -204,7 +319,7 @@
   },
   {
     "sectionNumber": 2,
-    "verseNumber": 15,
+    "verseNumber": 18,
     "chapterNumber": null,
     "type": "paragraph_text",
     "value": "Later the Canaanite clans scattered"
@@ -266,11 +381,31 @@
     "type": "line_break"
   },
   {
+    "sectionNumber": 2,
+    "verseNumber": 22,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Elam, Ashur, Arphaxad, Lud and Aram."
+  },
+  {
+    "type": "line_break"
+  },
+  {
     "sectionNumber": 1,
     "verseNumber": 23,
     "chapterNumber": null,
     "type": "line_text",
     "value": "The sons of Aram:"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 23,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Uz, Hul, Gether and Meshek."
   },
   {
     "type": "line_break"
@@ -286,11 +421,31 @@
     "type": "line_break"
   },
   {
+    "sectionNumber": 2,
+    "verseNumber": 24,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "and Shelah the father of Eber."
+  },
+  {
+    "type": "line_break"
+  },
+  {
     "sectionNumber": 1,
     "verseNumber": 25,
     "chapterNumber": null,
     "type": "line_text",
     "value": "Two sons were born to Eber:"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 25,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "One was named Peleg, because in his time the earth was divided; his brother was named Joktan."
   },
   {
     "type": "line_break"
@@ -306,6 +461,37 @@
     "type": "line_break"
   },
   {
+    "sectionNumber": 2,
+    "verseNumber": 26,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Almodad, Sheleph, Hazarmaveth, Jerah,"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 27,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Hadoram, Uzal, Diklah,"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 28,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Obal, Abimael, Sheba,"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 29,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "Ophir, Havilah and Jobab. All these were sons of Joktan."
+  },
+  {
+    "type": "line_break"
+  },
+  {
     "type": "stanza_end"
   },
   {
@@ -313,7 +499,7 @@
   },
   {
     "sectionNumber": 2,
-    "verseNumber": 26,
+    "verseNumber": 29,
     "chapterNumber": null,
     "type": "line_text",
     "value": ""
