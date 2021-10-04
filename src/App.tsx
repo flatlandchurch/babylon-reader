@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import DataProvider from './DataProvider';
 import Day from './pages/Day';
 import Auth from './Auth';
+import Account from './pages/Account';
 
 const Wrapper = styled('div')`
   display: block;
@@ -71,6 +72,7 @@ const App = () => {
           <Fragment>
             <Route path="/" component={Home} />
             <Route path="/day/:day" component={Day} />
+            <Route path="/account" component={Account} />
           </Fragment>
         )}
       </Wrapper>

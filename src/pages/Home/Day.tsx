@@ -37,7 +37,7 @@ const Title = styled<{ locked: boolean }>('h1')`
 const Bubble = styled<{ locked: boolean }>('div')`
   width: 24px;
   height: 24px;
-  border: 2px solid #666;
+  border: 2px solid ${(props) => (props.complete ? '#1D9C66' : '#666')};
   display: block;
   border-radius: 50%;
   position: relative;
@@ -45,8 +45,12 @@ const Bubble = styled<{ locked: boolean }>('div')`
     if (props.locked) {
       return '#666';
     }
+
+    if (props.complete) {
+      return '#1D9C66';
+    }
   }};
-  
+
   span {
     position: absolute;
     color: #fff;
@@ -70,13 +74,12 @@ const DayRow = ({ day, title, chapterNotation, locked, complete }) => {
   return (
     <Row key={day}>
       <Bubble locked={locked} complete={complete}>
-        <span class="material-icons-outlined">
-          lock
-        </span>
+        {locked && <span class="material-icons-outlined">lock</span>}
+        {complete && <span class="material-icons-outlined">check</span>}
       </Bubble>
       <TitleCol>
         <Title locked={locked}>
-          Day {day}: {title} { locked && <small>(locked)</small> }
+          Day {day}: {title} {locked && <small>(locked)</small>}
         </Title>
         <div>{chapterNotation}</div>
       </TitleCol>
@@ -86,12 +89,12 @@ const DayRow = ({ day, title, chapterNotation, locked, complete }) => {
 };
 
 const Day = ({ day, unlocked, complete }) => {
-  return (
-    unlocked ?
-      (<Link href={`/day/${day.day}`}>
-        <DayRow {...day} complete={complete} />
-      </Link>) :
-      (<DayRow {...day} locked />)
+  return unlocked ? (
+    <Link href={`/day/${day.day}`}>
+      <DayRow {...day} complete={complete} />
+    </Link>
+  ) : (
+    <DayRow {...day} locked />
   );
 };
 
