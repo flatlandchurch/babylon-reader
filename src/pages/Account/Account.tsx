@@ -27,6 +27,8 @@ const Badge = styled('div')`
   display: flex;
   border-radius: 50%;
   margin: 0 auto;
+  border: 2px solid #000;
+  background: #ccc;
 `;
 
 const BadgeTitle = styled('span')`
@@ -39,8 +41,6 @@ const BadgeTitle = styled('span')`
 `;
 
 const LockedBadge = styled(Badge)`
-  border: 2px solid #000;
-  background: #ccc;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -53,7 +53,22 @@ const LockedBadge = styled(Badge)`
   }
 `;
 
-const UnlockedBadge = styled('div')``;
+const UnlockedBadge = styled(Badge)`
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+  }
+`;
 
 const Account = () => {
   const [completions, setCompletions] = useState([]);
@@ -72,24 +87,35 @@ const Account = () => {
     window.scrollTo({ top: 0 });
   }, []);
 
-  console.log(completions);
-
-  // TODO calculate badges
+  const verifiedBadges = Object.keys(badges)
+    .map((k) => badges[k])
+    .map((badge) => ({
+      ...badge,
+      unlocked: badge.condition(completions),
+    }))
+    .filter((badge) => (badge.unlocked ? true : !badge.hidden));
 
   return (
     <AccountWrapper>
       <h2>Badges</h2>
       <BadgesGrid>
-        {Object.keys(badges)
-          .map((k) => badges[k])
-          .map((badge) => (
+        {verifiedBadges.map((badge) =>
+          badge.unlocked ? (
+            <BadgeWrapper>
+              <UnlockedBadge>
+                <img src={badge.image} alt={`${badge.title} badge`} />
+              </UnlockedBadge>
+              <BadgeTitle>{badge.title}</BadgeTitle>
+            </BadgeWrapper>
+          ) : (
             <BadgeWrapper>
               <LockedBadge>
                 <span className="material-icons-outlined">locked</span>
               </LockedBadge>
               <BadgeTitle>{badge.title}</BadgeTitle>
             </BadgeWrapper>
-          ))}
+          ),
+        )}
       </BadgesGrid>
     </AccountWrapper>
   );

@@ -1,8 +1,8 @@
 const badges = {
   start: {
     title: 'So It Begins',
-    description: 'You completed your first day of reading.',
-    image: '',
+    description: `You completed your first day of reading. You've taken your first step into a larger world.`,
+    image: '/badges/start.png',
     condition: (days) => days.find((d) => d.day === 1),
   },
   genesis: {
@@ -66,47 +66,60 @@ const badges = {
     title: 'The Faithful Jew',
     description: 'You read the whole book of Daniel',
     image: '',
+    condition: () => {},
   },
   week_three: {
     title: 'Good Things Come in Threes',
     description: `You completed three weeks of reading. That's commendable!`,
     image: '',
+    condition: () => {},
   },
   magi: {
     title: 'Gifts of the Magi',
+    condition: () => {},
   },
   son_of_man: {
     title: 'Son of Man',
+    condition: () => {},
   },
   week_four: {
     title: 'Four: One More',
+    condition: () => {},
   },
   roman_exiles: {
     title: 'The People of God',
+    condition: () => {},
   },
   holy: {
     title: 'Holy, Holy, Holy',
+    condition: () => {},
   },
   babylon_fallen: {
     title: 'Fallen is Babylon',
+    condition: () => {},
   },
   the_beginning: {
     title: 'The End and the Beginning',
+    condition: () => {},
   },
   conqueror: {
     title: 'Conqueror',
+    condition: () => {},
   },
   more_than_a_conqueror: {
     title: 'More than a Conqueror',
     hidden: true,
+    condition: () => {},
   },
   catch_up: {
     title: 'Catch Up',
     hidden: true,
+    condition: () => {},
   },
   skip_ahead: {
     title: 'Skip Ahead',
     hidden: true,
+    condition: () => {},
   },
 };
 

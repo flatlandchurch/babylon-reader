@@ -5,6 +5,8 @@ import { add, isBefore, isSameDay } from 'date-fns';
 import Day from './Day';
 import { usePlan } from '../../DataProvider';
 import { useEffect, useState } from 'preact/hooks';
+import badges from '../../badges';
+import BadgeModal from './BadgeModal';
 
 const Jumbo = styled('section')`
   width: 100%;
@@ -16,6 +18,8 @@ const Jumbo = styled('section')`
 const Home = () => {
   const plan = usePlan();
   const [completions, setCompletions] = useState([]);
+  const [badgesToShow, setBadgesToShow] = useState([]);
+  const [keepOpen, setKeepOpen] = useState(true);
   const startDate = new Date(2021, 9, 3);
 
   useEffect(() => {
@@ -31,6 +35,36 @@ const Home = () => {
   useEffect(() => {
     window.scrollTo({ top: 0 });
   }, []);
+
+  useEffect(() => {
+    const acknowledgedBadges = JSON.parse(window.localStorage.getItem('br:acked') || '{}');
+
+    const verifiedBadges = Object.keys(badges)
+      .map((k) => ({
+        ...badges[k],
+        id: k,
+      }))
+      .map((badge) => ({
+        ...badge,
+        unlocked: badge.condition(completions),
+      }))
+      .filter((badge) => badge.unlocked)
+      .filter((badge) => !acknowledgedBadges[badge.id]);
+
+    setBadgesToShow(verifiedBadges);
+  }, [completions]);
+
+  useEffect(() => {
+    const acknowledgedBadges = JSON.parse(window.localStorage.getItem('br:acked') || '{}');
+
+    badgesToShow.forEach(({ id }) => {
+      acknowledgedBadges[id] = true;
+    });
+
+    window.localStorage.setItem('br:acked', JSON.stringify(acknowledgedBadges));
+  }, [badgesToShow]);
+
+  console.log(badgesToShow);
 
   return (
     <Fragment>
@@ -48,6 +82,9 @@ const Home = () => {
 
           return <Day key={day.day} day={day} unlocked={unlocked} complete={isComplete} />;
         })}
+      {!!badgesToShow.length && keepOpen && (
+        <BadgeModal badges={badgesToShow} onClose={() => setKeepOpen(false)} />
+      )}
     </Fragment>
   );
 };
