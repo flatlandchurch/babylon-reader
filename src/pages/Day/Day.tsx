@@ -7,6 +7,7 @@ import { useCopyright, usePlan, useTexts, Day as DayType } from '../../DataProvi
 import Paragraph from './Paragraph';
 import Stanza from './Stanza';
 import condense from './condense';
+import descriptions from '../../descriptions';
 
 const Article = styled('article')`
   padding: 0 24px;
@@ -107,6 +108,8 @@ const Day = ({ params }) => {
   const { texts, loading } = useTexts(dayPlan ? dayPlan.chapters : []);
   const copyright = useCopyright();
 
+  const Description = descriptions[parseInt(day, 10)];
+
   useEffect(() => {
     fetch('/.netlify/functions/completions').then(async (d) => {
       if (d.status === 400) {
@@ -147,6 +150,7 @@ const Day = ({ params }) => {
           Day {day}: {dayPlan.title}
         </h1>
       )}
+      <Description />
       {!loading &&
         texts.length &&
         dayPlan.chapters.map((ch, idx) => (
