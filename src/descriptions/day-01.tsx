@@ -4,6 +4,7 @@ import { Paragraph } from './styles';
 const Day = () => {
   return (
     <Paragraph>
+      <h2>Intro</h2>
       <p>
         The story of Scripture begins in formless chaos. In quick repetition we find ourselves
         immersed primordial chaos waters (Genesis 1) and then surrounded by the wild waste that is
