@@ -17,7 +17,7 @@ const badges = {
   genesis: {
     title: 'The End of the Beginning',
     description: 'You completed all the readings from Genesis.',
-    image: '',
+    image: '/badges/genesis.png',
     condition: (days) => days.find((d) => d.day === 5) && days.length >= 5,
   },
   week_one: {

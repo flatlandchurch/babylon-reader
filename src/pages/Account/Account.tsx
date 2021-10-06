@@ -15,15 +15,16 @@ const BadgeWrapper = styled('div')`
 
 const BadgesGrid = styled('div')`
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-gap: 48px;
   justify-content: space-between;
   margin-top: 32px;
 `;
 
 const Badge = styled('div')`
-  height: 50px;
-  width: 50px;
+  height: 0;
+  width: 100%;
+  padding-bottom: 100%;
   display: flex;
   border-radius: 50%;
   margin: 0 auto;
@@ -45,11 +46,15 @@ const LockedBadge = styled(Badge)`
   justify-content: center;
   text-align: center;
   color: #000;
+  position: relative;
 
   span {
-    width: 24px;
+    position: absolute;
+    width: 48px;
+    font-size: 48px;
     margin: 0 auto;
     display: block;
+    top: calc(50% - 24px);
   }
 `;
 
