@@ -5,3 +5,7 @@ yarn-error.log*
 /public/main.js
 .netlify
 .env
+
+*.blend1
+*.blend2
+*.blend3

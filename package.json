@@ -18,6 +18,7 @@
 		"build:content": "node tools/makeContentFile.js",
 		"postbuild": "node tools/copyBundledFiles.js",
 		"start": "netlify dev",
+		"test": "ava",
 		"email": "node tools/massEmail.js"
 	},
 	"husky": {
@@ -32,8 +33,6 @@
 	},
 	"prettier": "@dmsi/prettier-config",
 	"ava": {
-		"babel": false,
-		"compileEnhancements": false,
 		"concurrency": 4,
 		"extensions": [
 			"ts"
@@ -84,6 +83,7 @@
 		"faunadb": "^4.4.1",
 		"goober": "^2.0.39",
 		"jsonwebtoken": "^8.5.1",
+		"luxon": "^2.0.2",
 		"mandrill-api": "^1.0.45",
 		"md5": "^2.3.0",
 		"preact": "^10.5.14",

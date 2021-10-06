@@ -1,9 +1,18 @@
+import two from './conditions/two';
+
 const badges = {
   start: {
     title: 'So It Begins',
     description: `You completed your first day of reading. You've taken your first step into a larger world.`,
     image: '/badges/start.png',
     condition: (days) => days.find((d) => d.day === 1),
+  },
+  two: {
+    title: 'Two in a Row',
+    description: `You've successfully completed a reading for two days in a row. Keep up the momentum.`,
+    image: '/badges/two.png',
+    condition: two,
+    hidden: true,
   },
   genesis: {
     title: 'The End of the Beginning',
