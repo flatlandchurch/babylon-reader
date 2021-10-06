@@ -1,4 +1,6 @@
 import two from './conditions/two';
+import findInRange from './conditions/utils/findInRange';
+import three from './conditions/three';
 
 const badges = {
   start: {
@@ -14,11 +16,18 @@ const badges = {
     condition: two,
     hidden: true,
   },
+  three: {
+    title: 'Three in a Row',
+    description: `You've successfully completed a reading for three days in a row. You're doing awesome!`,
+    image: '/badges/three.png',
+    condition: three,
+    hidden: true,
+  },
   genesis: {
     title: 'The End of the Beginning',
     description: 'You completed all the readings from Genesis.',
     image: '/badges/genesis.png',
-    condition: (days) => days.find((d) => d.day === 5) && days.length >= 5,
+    condition: (days) => findInRange(1, 5, days),
   },
   week_one: {
     title: 'The Seventh Day',

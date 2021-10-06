@@ -4,6 +4,7 @@ import { Paragraph } from './styles';
 const Day = () => {
   return (
     <Paragraph>
+      <h2>Intro</h2>
       <p>
         The way of Babylon is often marked by abuse of authority, exploitation, the diminishing of a
         fellow image bearer, and attempting to work out God's plan by our own will. At the close of

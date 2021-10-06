@@ -64,8 +64,6 @@ const Home = () => {
     window.localStorage.setItem('br:acked', JSON.stringify(acknowledgedBadges));
   }, [badgesToShow]);
 
-  console.log(badgesToShow);
-
   return (
     <Fragment>
       <Jumbo>
