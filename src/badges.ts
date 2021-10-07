@@ -1,6 +1,7 @@
 import two from './conditions/two';
 import findInRange from './conditions/utils/findInRange';
 import three from './conditions/three';
+import early from './conditions/early';
 
 const badges = {
   start: {
@@ -21,6 +22,13 @@ const badges = {
     description: `You've successfully completed a reading for three days in a row. You're doing awesome!`,
     image: '/badges/three.png',
     condition: three,
+    hidden: true,
+  },
+  early: {
+    title: 'I Rise Early',
+    description: `You've done a day's reading before 6AM.`,
+    image: '/badges/early.png',
+    condition: early,
     hidden: true,
   },
   genesis: {
