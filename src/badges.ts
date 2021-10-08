@@ -41,104 +41,115 @@ const badges = {
     title: 'The Seventh Day',
     description: 'You completed a week of readings!',
     image: '',
-    condition: (days) => days.find((d) => d.day === 7) && days.length >= 7,
+    condition: (days) => findInRange(1, 7, days),
   },
   exodus: {
     title: 'The Cloud of YHWH',
     description: 'You completed all the readings from Exodus.',
     image: '',
-    condition: (days) => days.find((d) => d.day === 8) && days.length >= 8,
+    condition: (days) => findInRange(6, 8, days),
   },
   gross: {
     title: 'Gross!',
     description: 'You survived Priestly law, with animal sacrifices and everything.',
     image: '',
     hidden: true,
-    condition: (days) => days.find((d) => d.day === 9) && days.length >= 9,
+    condition: (days) => days.find((d) => d.day === 9),
   },
   torah: {
     title: 'The Instructions of God',
     description:
       'You completed all the readings from the Torah, the first five books of the Bible.',
     image: '',
-    condition: (days) => days.find((d) => d.day === 9) && days.length >= 9,
+    condition: (days) => findInRange(1, 9, days),
   },
   judges: {
     title: 'The Darkest Timeline',
     description: 'You completed all the readings for the book of Judges, and boy was it a doozy.',
     image: '',
-    condition: (days) => days.find((d) => d.day === 11) && days.length >= 11,
+    condition: (days) => findInRange(10, 11, days),
   },
   week_two: {
     title: 'Fortnight',
     description: 'Wow! Look at how faithful you are. You completed two weeks of readings',
     image: '',
-    condition: (days) => days.find((d) => d.day === 14) && days.length >= 14,
+    condition: (days) => findInRange(1, 14, days),
   },
   kings: {
     title: `All the King's Horses`,
     description: `Honestly, this one's a bit of a freebie. I was really committed to the pun for 1 Kings 10-12.`,
     image: '',
     hidden: true,
-    condition: (days) => days.find((d) => d.day === 14) && days.length >= 14,
+    condition: (days) => days.find((d) => d.day === 14),
   },
   exile: {
     title: `By the Rivers of Babylon`,
     description: `You completed all the readings leading up to the Babylonian exile.`,
     image: '',
-    condition: (days) => days.find((d) => d.day === 15) && days.length >= 15,
+    condition: (days) => findInRange(1, 15, days),
   },
   daniel: {
     title: 'The Faithful Jew',
     description: 'You read the whole book of Daniel',
     image: '',
-    condition: () => {},
+    condition: (days) => findInRange(17, 21, days),
   },
   week_three: {
     title: 'Good Things Come in Threes',
     description: `You completed three weeks of reading. That's commendable!`,
     image: '',
-    condition: () => {},
+    condition: (days) => findInRange(1, 21, days),
   },
   magi: {
     title: 'Gifts of the Magi',
-    condition: () => {},
+    condition: (days) => days.find((d) => d.day === 22),
   },
   son_of_man: {
     title: 'Son of Man',
-    condition: () => {},
+    condition: (days) => findInRange(23, 26, days),
   },
   week_four: {
     title: 'Four: One More',
-    condition: () => {},
+    description: `Incredible! You completed four weeks of reading. Look how far you've come! Only one more week to go.`,
+    condition: (days) => findInRange(1, 28, days),
   },
   roman_exiles: {
     title: 'The People of God',
-    condition: () => {},
+    condition: (days) => findInRange(27, 29, days),
   },
   holy: {
     title: 'Holy, Holy, Holy',
-    condition: () => {},
+    condition: (days) => days.find((d) => d.day === 30),
+  },
+  advent: {
+    title: 'Advent',
+    condition: (days) => days.find((d) => d.day === 32),
   },
   babylon_fallen: {
     title: 'Fallen is Babylon',
-    condition: () => {},
+    condition: (days) => findInRange(33, 34, days),
   },
   the_beginning: {
     title: 'The End and the Beginning',
+    condition: (days) => days.find((d) => d.day === 35),
+  },
+  skip_end: {
+    title: 'Skip to the End',
+    description: 'Read the final reading with at least one previous reading still unread.',
     condition: () => {},
   },
   conqueror: {
     title: 'Conqueror',
-    condition: () => {},
+    condition: (days) => findInRange(1, 35, days),
   },
   more_than_a_conqueror: {
     title: 'More than a Conqueror',
     hidden: true,
-    condition: () => {},
+    condition: (days) => findInRange(1, 35, days) && (() => {})(), // TODO: make sure its perfect
   },
   catch_up: {
     title: 'Catch Up',
+    description: 'Complete at least two readings on the same day.',
     hidden: true,
     condition: () => {},
   },
@@ -148,5 +159,7 @@ const badges = {
     condition: () => {},
   },
 };
+
+// TODO: Add perfect weeks
 
 export default badges;
