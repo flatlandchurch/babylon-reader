@@ -20,8 +20,8 @@ const perfectInRange = (start: number, end: number, days: Completion[]): boolean
     }
 
     if (sortedDays.find(({ day }) => day === range[i])) {
-      const prev = utcToJSDate(days[i - 1].read);
-      const curr = utcToJSDate(days[i].read);
+      const prev = utcToJSDate(sortedDays[i - 1].read);
+      const curr = utcToJSDate(sortedDays[i].read);
 
       if (differenceInCalendarDays(curr, prev) > 1) {
         return false;
