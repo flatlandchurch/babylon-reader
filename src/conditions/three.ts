@@ -3,11 +3,7 @@ import sort from 'sort-on';
 import { differenceInCalendarDays } from 'date-fns';
 
 import { Completion } from './types';
-
-const utcToJSDate = (date: string) => {
-  const utc = DateTime.fromISO(date, { zone: 'America/Chicago' });
-  return new Date(utc.year, utc.month - 1, utc.day, utc.hour, utc.minute, 0);
-};
+import utcToJSDate from './utils/utcToJSDate';
 
 const three = (days: Completion[]): boolean => {
   const sortedDays = sort(days, ['read']);

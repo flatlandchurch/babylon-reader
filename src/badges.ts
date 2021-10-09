@@ -2,6 +2,9 @@ import two from './conditions/two';
 import findInRange from './conditions/utils/findInRange';
 import three from './conditions/three';
 import early from './conditions/early';
+import consistent from './conditions/consistent';
+import ketchup from './conditions/ketchup';
+import perfectInRange from './conditions/utils/perfectInRange';
 
 const badges = {
   start: {
@@ -40,8 +43,14 @@ const badges = {
   week_one: {
     title: 'The Seventh Day',
     description: 'You completed a week of readings!',
-    image: '',
+    image: '/badges/seven.png',
     condition: (days) => findInRange(1, 7, days),
+  },
+  perfect_week_one: {
+    title: 'Perfect Week I',
+    hidden: true,
+    image: '/badges/perfect_week_1.png',
+    condition: (days) => perfectInRange(1, 7, days),
   },
   exodus: {
     title: 'The Cloud of YHWH',
@@ -73,7 +82,13 @@ const badges = {
     title: 'Fortnight',
     description: 'Wow! Look at how faithful you are. You completed two weeks of readings',
     image: '',
-    condition: (days) => findInRange(1, 14, days),
+    condition: (days) => findInRange(8, 14, days),
+  },
+  perfect_week_two: {
+    title: 'Perfect Week II',
+    hidden: true,
+    image: '/badges/perfect_week_2.png',
+    condition: (days) => perfectInRange(8, 14, days),
   },
   kings: {
     title: `All the King's Horses`,
@@ -98,7 +113,13 @@ const badges = {
     title: 'Good Things Come in Threes',
     description: `You completed three weeks of reading. That's commendable!`,
     image: '',
-    condition: (days) => findInRange(1, 21, days),
+    condition: (days) => findInRange(15, 21, days),
+  },
+  perfect_week_three: {
+    title: 'Perfect Week III',
+    hidden: true,
+    image: '/badges/perfect_week_3.png',
+    condition: (days) => perfectInRange(15, 21, days),
   },
   magi: {
     title: 'Gifts of the Magi',
@@ -111,7 +132,13 @@ const badges = {
   week_four: {
     title: 'Four: One More',
     description: `Incredible! You completed four weeks of reading. Look how far you've come! Only one more week to go.`,
-    condition: (days) => findInRange(1, 28, days),
+    condition: (days) => findInRange(22, 28, days),
+  },
+  perfect_week_four: {
+    title: 'Perfect Week IV',
+    hidden: true,
+    image: '/badges/perfect_week_4.png',
+    condition: (days) => perfectInRange(22, 28, days),
   },
   roman_exiles: {
     title: 'The People of God',
@@ -136,7 +163,17 @@ const badges = {
   skip_end: {
     title: 'Skip to the End',
     description: 'Read the final reading with at least one previous reading still unread.',
-    condition: () => {},
+    condition: (days) => days.find((d) => d.day === 35) && !findInRange(1, 35, days), // TODO: this is technically impermanent
+  },
+  week_five: {
+    title: 'Conqueror',
+    condition: (days) => findInRange(29, 35, days),
+  },
+  perfect_week_five: {
+    title: 'Perfect Week V',
+    hidden: true,
+    image: '/badges/perfect_week_5.png',
+    condition: (days) => perfectInRange(22, 28, days),
   },
   conqueror: {
     title: 'Conqueror',
@@ -145,18 +182,30 @@ const badges = {
   more_than_a_conqueror: {
     title: 'More than a Conqueror',
     hidden: true,
-    condition: (days) => findInRange(1, 35, days) && (() => {})(), // TODO: make sure its perfect
+    condition: (days) => perfectInRange(1, 35, days),
+  },
+  overcomer: {
+    title: '',
+    condition: () => {},
   },
   catch_up: {
-    title: 'Catch Up',
-    description: 'Complete at least two readings on the same day.',
+    title: 'Ketch Up',
+    description: `Complete at least two readings on the same day. It's okay if you're a little behind, we still believe in you.`,
+    image: '/badges/ketchup.png',
     hidden: true,
-    condition: () => {},
+    condition: ketchup,
   },
   skip_ahead: {
     title: 'Skip Ahead',
     hidden: true,
     condition: () => {},
+  },
+  consistent: {
+    title: 'Consistent',
+    description: 'Read at least three days in a row at the same hour each day.',
+    image: '/badges/consistent.png',
+    hidden: true,
+    condition: consistent,
   },
 };
 
