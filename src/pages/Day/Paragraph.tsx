@@ -21,17 +21,25 @@ const Sup = styled('sup')`
 `;
 
 const Text = styled('span')`
-  &:not(:last-child)::after {
-    content: ' ';
+  &::before {
+    content: ${(props) => (props.spaceBefore ? '" "' : '')};
   }
 
-  &:not(:first-child)::before {
-    content: ' ';
+  &::after {
+    content: ${(props) => (props.spaceAfter ? '" "' : '')};
   }
 `;
 
 export const DivineName = styled(Text)`
   font-variant: ${(props) => props.smallcaps && 'small-caps'};
+
+  &::before {
+    content: ${(props) => (props.spaceBefore ? '" "' : '')};
+  }
+
+  &::after {
+    content: ${(props) => (props.spaceAfter ? '" "' : '')};
+  }
 `;
 
 export const VerseNumber = ({ children }: { children: ComponentChildren }) => {
@@ -41,15 +49,22 @@ export const VerseNumber = ({ children }: { children: ComponentChildren }) => {
 };
 
 const Paragraph = (unit: { chunks: Record<string, any>[] }) => {
-  const { name, smallcaps } = useDivineName();
-
   return (
     <Para>
       {unit.chunks.map((chunk, idx) =>
         chunk.type === 'divine_name_text' ? (
-          <DivineName smallcaps={smallcaps}>{name}</DivineName>
+          <DivineName
+            smallcaps={true}
+            spaceBefore={idx > 0 && /\w$/.test(unit.chunks[idx - 1].value)}
+            spaceAfter={idx < unit.chunks.length - 1 && /^\w/.test(unit.chunks[idx + 1].value)}
+          >
+            {idx > 0 && !/the$/i.test(unit.chunks[idx - 1].value) ? 'YHWH' : 'Lord'}
+          </DivineName>
         ) : (
-          <Text>
+          <Text
+            spaceBefore={idx > 0 && /\W$/.test(unit.chunks[idx - 1].value)}
+            spaceAfter={idx < unit.chunks.length - 1 && /^\W/.test(unit.chunks[idx + 1].value)}
+          >
             {idx > 0 && unit.chunks[idx - 1].verseNumber !== chunk.verseNumber && (
               <VerseNumber>{chunk.verseNumber}</VerseNumber>
             )}
