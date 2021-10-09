@@ -18,12 +18,16 @@ const condense = (text: Record<string, any>[]) => {
 
     if (chunk.type.includes('_text')) {
       const lastIdx = acc.length - 1;
-      acc[lastIdx].chunks.push(chunk);
+      if (lastIdx > -1) {
+        acc[lastIdx].chunks.push(chunk);
+      }
     }
 
     if (chunk.type.includes('_end')) {
       const lastIdx = acc.length - 1;
-      acc[lastIdx].id = md5(JSON.stringify(acc[lastIdx]));
+      if (lastIdx > -1) {
+        acc[lastIdx].id = md5(JSON.stringify(acc[lastIdx]));
+      }
     }
 
     return acc;
