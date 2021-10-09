@@ -288,16 +288,192 @@
     "type": "stanza_end"
   },
   {
-    "type": "stanza_start"
+    "type": "paragraph_start"
   },
   {
-    "type": "stanza_end"
+    "sectionNumber": 2,
+    "verseNumber": 14,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "The sons of Reuben the firstborn son of Israel were Hanok and Pallu, Hezron and Karmi. These were the clans of Reuben."
   },
   {
-    "type": "stanza_start"
+    "type": "paragraph_end"
   },
   {
-    "type": "stanza_end"
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 15,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "The sons of Simeon were Jemuel, Jamin, Ohad, Jakin, Zohar and Shaul the son of a Canaanite woman. These were the clans of Simeon."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 16,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "These were the names of the sons of Levi according to their records: Gershon, Kohath and Merari. Levi lived 137 years."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 17,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "The sons of Gershon, by clans, were Libni and Shimei."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 18,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "The sons of Kohath were Amram, Izhar, Hebron and Uzziel. Kohath lived 133 years."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 19,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "The sons of Merari were Mahli and Mushi."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 19,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "These were the clans of Levi according to their records."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 20,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "Amram married his father’s sister Jochebed, who bore him Aaron and Moses. Amram lived 137 years."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 21,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "The sons of Izhar were Korah, Nepheg and Zikri."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 22,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "The sons of Uzziel were Mishael, Elzaphan and Sithri."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 23,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "Aaron married Elisheba, daughter of Amminadab and sister of Nahshon, and she bore him Nadab and Abihu, Eleazar and Ithamar."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 24,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "The sons of Korah were: Assir, Elkanah and Abiasaph. These were the Korahite clans."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 25,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "Eleazar son of Aaron married one of the daughters of Putiel, and she bore him Phinehas."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "break"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 25,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "These were the heads of the Levite families, clan by clan."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "break"
   },
   {
     "type": "paragraph_start"
