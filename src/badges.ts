@@ -163,10 +163,11 @@ const badges = {
   skip_end: {
     title: 'Skip to the End',
     description: 'Read the final reading with at least one previous reading still unread.',
+    hidden: true,
     condition: (days) => days.find((d) => d.day === 35) && !findInRange(1, 35, days), // TODO: this is technically impermanent
   },
   week_five: {
-    title: 'Conqueror',
+    title: `High Five`,
     condition: (days) => findInRange(29, 35, days),
   },
   perfect_week_five: {
@@ -186,6 +187,7 @@ const badges = {
   },
   overcomer: {
     title: '',
+    hidden: true,
     condition: () => {},
   },
   catch_up: {
