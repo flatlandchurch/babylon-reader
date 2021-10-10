@@ -1,8 +1,9 @@
-import { h } from 'preact';
+import { Fragment, h } from 'preact';
 import { styled } from 'goober';
 import { useState, useEffect } from 'preact/hooks';
 
 import badges from '../../badges';
+import BadgeModal from '../Home/BadgeModal';
 
 const AccountWrapper = styled('div')`
   padding: 16px 24px;
@@ -77,6 +78,8 @@ const UnlockedBadge = styled(Badge)`
 
 const Account = () => {
   const [completions, setCompletions] = useState([]);
+  const [showModal, setShowModal] = useState(false);
+  const [selectedBadge, setSelectedBadge] = useState(null);
 
   useEffect(() => {
     fetch('/.netlify/functions/completions').then(async (d) => {
@@ -101,28 +104,44 @@ const Account = () => {
     .filter((badge) => (badge.unlocked ? true : !badge.hidden));
 
   return (
-    <AccountWrapper>
-      <h2>Badges</h2>
-      <BadgesGrid>
-        {verifiedBadges.map((badge) =>
-          badge.unlocked ? (
-            <BadgeWrapper>
-              <UnlockedBadge>
-                <img src={badge.image} alt={`${badge.title} badge`} />
-              </UnlockedBadge>
-              <BadgeTitle>{badge.title}</BadgeTitle>
-            </BadgeWrapper>
-          ) : (
-            <BadgeWrapper>
-              <LockedBadge>
-                <span className="material-icons-outlined">locked</span>
-              </LockedBadge>
-              <BadgeTitle>{badge.title}</BadgeTitle>
-            </BadgeWrapper>
-          ),
-        )}
-      </BadgesGrid>
-    </AccountWrapper>
+    <Fragment>
+      <AccountWrapper>
+        <h2>Badges</h2>
+        <BadgesGrid>
+          {verifiedBadges.map((badge) =>
+            badge.unlocked ? (
+              <BadgeWrapper>
+                <UnlockedBadge
+                  onClick={() => {
+                    setSelectedBadge(badge);
+                    setShowModal(true);
+                  }}
+                >
+                  <img src={badge.image} alt={`${badge.title} badge`} />
+                </UnlockedBadge>
+                <BadgeTitle>{badge.title}</BadgeTitle>
+              </BadgeWrapper>
+            ) : (
+              <BadgeWrapper>
+                <LockedBadge>
+                  <span className="material-icons-outlined">locked</span>
+                </LockedBadge>
+                <BadgeTitle>{badge.title}</BadgeTitle>
+              </BadgeWrapper>
+            ),
+          )}
+        </BadgesGrid>
+      </AccountWrapper>
+      {showModal && (
+        <BadgeModal
+          badges={[selectedBadge]}
+          onClose={() => {
+            setShowModal(false);
+            setSelectedBadge(null);
+          }}
+        />
+      )}
+    </Fragment>
   );
 };
 

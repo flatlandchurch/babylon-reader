@@ -48,14 +48,15 @@ const badges = {
   },
   perfect_week_one: {
     title: 'Perfect Week I',
+    description: 'You read consistently every day this week!',
     hidden: true,
     image: '/badges/perfect_week_1.png',
-    condition: (days) => perfectInRange(1, 7, days),
+    condition: (days) => perfectInRange(1, 7, days), // TODO: recalc this
   },
   exodus: {
     title: 'The Cloud of YHWH',
     description: 'You completed all the readings from Exodus.',
-    image: '',
+    image: '/badges/cloud.png',
     condition: (days) => findInRange(6, 8, days),
   },
   gross: {
@@ -68,7 +69,7 @@ const badges = {
   torah: {
     title: 'The Instructions of God',
     description:
-      'You completed all the readings from the Torah, the first five books of the Bible.',
+      'You completed all the readings from the Torah – the first five books of the Bible.',
     image: '',
     condition: (days) => findInRange(1, 9, days),
   },
@@ -86,6 +87,7 @@ const badges = {
   },
   perfect_week_two: {
     title: 'Perfect Week II',
+    description: 'You read consistently every day this week!',
     hidden: true,
     image: '/badges/perfect_week_2.png',
     condition: (days) => perfectInRange(8, 14, days),
@@ -117,6 +119,7 @@ const badges = {
   },
   perfect_week_three: {
     title: 'Perfect Week III',
+    description: 'You read consistently every day this week!',
     hidden: true,
     image: '/badges/perfect_week_3.png',
     condition: (days) => perfectInRange(15, 21, days),
@@ -136,6 +139,7 @@ const badges = {
   },
   perfect_week_four: {
     title: 'Perfect Week IV',
+    description: 'You read consistently every day this week!',
     hidden: true,
     image: '/badges/perfect_week_4.png',
     condition: (days) => perfectInRange(22, 28, days),
@@ -172,6 +176,7 @@ const badges = {
   },
   perfect_week_five: {
     title: 'Perfect Week V',
+    description: 'You read consistently every day this week!',
     hidden: true,
     image: '/badges/perfect_week_5.png',
     condition: (days) => perfectInRange(22, 28, days),
