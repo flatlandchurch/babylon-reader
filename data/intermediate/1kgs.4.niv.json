@@ -1,0 +1,508 @@
+[
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "verse_number",
+    "value": 1
+  },
+  {
+    "type": "paragraph_text",
+    "value": "So King Solomon ruled over all Israel."
+  },
+  {
+    "type": "verse_number",
+    "value": 2
+  },
+  {
+    "type": "paragraph_text",
+    "value": "And these were his chief officials:"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "break"
+  },
+  {
+    "type": "line_text",
+    "value": "Azariah son of Zadok—the priest;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 3
+  },
+  {
+    "type": "line_text",
+    "value": "Elihoreph and Ahijah, sons of Shisha—secretaries;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": "Jehoshaphat son of Ahilud—recorder;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 4
+  },
+  {
+    "type": "line_text",
+    "value": "Benaiah son of Jehoiada—commander in chief;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": "Zadok and Abiathar—priests;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 5
+  },
+  {
+    "type": "line_text",
+    "value": "Azariah son of Nathan—in charge of the district governors;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": "Zabud son of Nathan—a priest and adviser to the king;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 6
+  },
+  {
+    "type": "line_text",
+    "value": "Ahishar—palace administrator;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": "Adoniram son of Abda—in charge of forced labor."
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "break"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 7
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Solomon had twelve district governors over all Israel, who supplied provisions for the king and the royal household. Each one had to provide supplies for one month in the year."
+  },
+  {
+    "type": "verse_number",
+    "value": 8
+  },
+  {
+    "type": "paragraph_text",
+    "value": "These are their names:"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "break"
+  },
+  {
+    "type": "line_text",
+    "value": "Ben-Hur—in the hill country of Ephraim;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 9
+  },
+  {
+    "type": "line_text",
+    "value": "Ben-Deker—in Makaz, Shaalbim, Beth Shemesh and Elon Bethhanan;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 10
+  },
+  {
+    "type": "line_text",
+    "value": "Ben-Hesed—in Arubboth (Sokoh and all the land of Hepher were his);"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 11
+  },
+  {
+    "type": "line_text",
+    "value": "Ben-Abinadab—in Naphoth Dor (he was married to Taphath daughter of Solomon);"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 12
+  },
+  {
+    "type": "line_text",
+    "value": "Baana son of Ahilud—in Taanach and Megiddo, and in all of Beth Shan next to Zarethan below Jezreel, from Beth Shan to Abel Meholah across to Jokmeam;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 13
+  },
+  {
+    "type": "line_text",
+    "value": "Ben-Geber—in Ramoth Gilead (the settlements of Jair son of Manasseh in Gilead were his, as well as the region of Argob in Bashan and its sixty large walled cities with bronze gate bars);"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 14
+  },
+  {
+    "type": "line_text",
+    "value": "Ahinadab son of Iddo—in Mahanaim;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 15
+  },
+  {
+    "type": "line_text",
+    "value": "Ahimaaz—in Naphtali (he had married Basemath daughter of Solomon);"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 16
+  },
+  {
+    "type": "line_text",
+    "value": "Baana son of Hushai—in Asher and in Aloth;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 17
+  },
+  {
+    "type": "line_text",
+    "value": "Jehoshaphat son of Paruah—in Issachar;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 18
+  },
+  {
+    "type": "line_text",
+    "value": "Shimei son of Ela—in Benjamin;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 19
+  },
+  {
+    "type": "line_text",
+    "value": "Geber son of Uri—in Gilead (the country of Sihon king of the Amorites and the country of Og king of Bashan). He was the only governor over the district."
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 20
+  },
+  {
+    "type": "paragraph_text",
+    "value": "The people of Judah and Israel were as numerous as the sand on the seashore; they ate, they drank and they were happy."
+  },
+  {
+    "type": "verse_number",
+    "value": 21
+  },
+  {
+    "type": "paragraph_text",
+    "value": "And Solomon ruled over all the kingdoms from the Euphrates River to the land of the Philistines, as far as the border of Egypt. These countries brought tribute and were Solomon’s subjects all his life."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 22
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Solomon’s daily provisions were thirty cors"
+  },
+  {
+    "type": "paragraph_text",
+    "value": "of the finest flour and sixty cors"
+  },
+  {
+    "type": "paragraph_text",
+    "value": "of meal,"
+  },
+  {
+    "type": "verse_number",
+    "value": 23
+  },
+  {
+    "type": "paragraph_text",
+    "value": "ten head of stall-fed cattle, twenty of pasture-fed cattle and a hundred sheep and goats, as well as deer, gazelles, roebucks and choice fowl."
+  },
+  {
+    "type": "verse_number",
+    "value": 24
+  },
+  {
+    "type": "paragraph_text",
+    "value": "For he ruled over all the kingdoms west of the Euphrates River, from Tiphsah to Gaza, and had peace on all sides."
+  },
+  {
+    "type": "verse_number",
+    "value": 25
+  },
+  {
+    "type": "paragraph_text",
+    "value": "During Solomon’s lifetime Judah and Israel, from Dan to Beersheba, lived in safety, everyone under their own vine and under their own fig tree."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 26
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Solomon had four"
+  },
+  {
+    "type": "paragraph_text",
+    "value": "thousand stalls for chariot horses, and twelve thousand horses."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 27
+  },
+  {
+    "type": "paragraph_text",
+    "value": "The district governors, each in his month, supplied provisions for King Solomon and all who came to the king’s table. They saw to it that nothing was lacking."
+  },
+  {
+    "type": "verse_number",
+    "value": 28
+  },
+  {
+    "type": "paragraph_text",
+    "value": "They also brought to the proper place their quotas of barley and straw for the chariot horses and the other horses."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 29
+  },
+  {
+    "type": "paragraph_text",
+    "value": "God gave Solomon wisdom and very great insight, and a breadth of understanding as measureless as the sand on the seashore."
+  },
+  {
+    "type": "verse_number",
+    "value": 30
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Solomon’s wisdom was greater than the wisdom of all the people of the East, and greater than all the wisdom of Egypt."
+  },
+  {
+    "type": "verse_number",
+    "value": 31
+  },
+  {
+    "type": "paragraph_text",
+    "value": "He was wiser than anyone else, including Ethan the Ezrahite—wiser than Heman, Kalkol and Darda, the sons of Mahol. And his fame spread to all the surrounding nations."
+  },
+  {
+    "type": "verse_number",
+    "value": 32
+  },
+  {
+    "type": "paragraph_text",
+    "value": "He spoke three thousand proverbs and his songs numbered a thousand and five."
+  },
+  {
+    "type": "verse_number",
+    "value": 33
+  },
+  {
+    "type": "paragraph_text",
+    "value": "He spoke about plant life, from the cedar of Lebanon to the hyssop that grows out of walls. He also spoke about animals and birds, reptiles and fish."
+  },
+  {
+    "type": "verse_number",
+    "value": 34
+  },
+  {
+    "type": "paragraph_text",
+    "value": "From all nations people came to listen to Solomon’s wisdom, sent by all the kings of the world, who had heard of his wisdom."
+  },
+  {
+    "type": "paragraph_end"
+  }
+]

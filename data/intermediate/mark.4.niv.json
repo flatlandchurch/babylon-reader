@@ -1,0 +1,641 @@
+[
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "verse_number",
+    "value": 1
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Again Jesus began to teach by the lake. The crowd that gathered around him was so large that he got into a boat and sat in it out on the lake, while all the people were along the shore at the water’s edge."
+  },
+  {
+    "type": "verse_number",
+    "value": 2
+  },
+  {
+    "type": "paragraph_text",
+    "value": "He taught them many things by parables, and in his teaching said:"
+  },
+  {
+    "type": "verse_number",
+    "value": 3
+  },
+  {
+    "type": "paragraph_text",
+    "value": "“Listen! A farmer went out to sow his seed."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 4
+  },
+  {
+    "type": "paragraph_text",
+    "value": "As he was scattering the seed, some fell along the path, and the birds came and ate it up."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 5
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Some fell on rocky places, where it did not have much soil. It sprang up quickly, because the soil was shallow."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 6
+  },
+  {
+    "type": "paragraph_text",
+    "value": "But when the sun came up, the plants were scorched, and they withered because they had no root."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 7
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Other seed fell among thorns, which grew up and choked the plants, so that they did not bear grain."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 8
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Still other seed fell on good soil. It came up, grew and produced a crop, some multiplying thirty, some sixty, some a hundred times.”"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 9
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Then Jesus said,"
+  },
+  {
+    "type": "paragraph_text",
+    "value": "“Whoever has ears to hear, let them hear.”"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 10
+  },
+  {
+    "type": "paragraph_text",
+    "value": "When he was alone, the Twelve and the others around him asked him about the parables."
+  },
+  {
+    "type": "verse_number",
+    "value": 11
+  },
+  {
+    "type": "paragraph_text",
+    "value": "He told them,"
+  },
+  {
+    "type": "paragraph_text",
+    "value": "“The secret of the kingdom of God has been given to you. But to those on the outside everything is said in parables"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 12
+  },
+  {
+    "type": "paragraph_text",
+    "value": "so that,"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "line_text",
+    "value": "“ ‘they may be ever seeing but never perceiving,"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "line_text",
+    "value": "and ever hearing but never understanding;"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "line_text",
+    "value": "otherwise they might turn and be forgiven!’"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "line_text",
+    "value": "”"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 13
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Then Jesus said to them,"
+  },
+  {
+    "type": "paragraph_text",
+    "value": "“Don’t you understand this parable? How then will you understand any parable?"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 14
+  },
+  {
+    "type": "paragraph_text",
+    "value": "The farmer sows the word."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 15
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Some people are like seed along the path, where the word is sown. As soon as they hear it, Satan comes and takes away the word that was sown in them."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 16
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Others, like seed sown on rocky places, hear the word and at once receive it with joy."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 17
+  },
+  {
+    "type": "paragraph_text",
+    "value": "But since they have no root, they last only a short time. When trouble or persecution comes because of the word, they quickly fall away."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 18
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Still others, like seed sown among thorns, hear the word;"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 19
+  },
+  {
+    "type": "paragraph_text",
+    "value": "but the worries of this life, the deceitfulness of wealth and the desires for other things come in and choke the word, making it unfruitful."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 20
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Others, like seed sown on good soil, hear the word, accept it, and produce a crop—some thirty, some sixty, some a hundred times what was sown.”"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 21
+  },
+  {
+    "type": "paragraph_text",
+    "value": "He said to them,"
+  },
+  {
+    "type": "paragraph_text",
+    "value": "“Do you bring in a lamp to put it under a bowl or a bed? Instead, don’t you put it on its stand?"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 22
+  },
+  {
+    "type": "paragraph_text",
+    "value": "For whatever is hidden is meant to be disclosed, and whatever is concealed is meant to be brought out into the open."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 23
+  },
+  {
+    "type": "paragraph_text",
+    "value": "If anyone has ears to hear, let them hear.”"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 24
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "paragraph_text",
+    "value": "“Consider carefully what you hear,”"
+  },
+  {
+    "type": "paragraph_text",
+    "value": "he continued."
+  },
+  {
+    "type": "paragraph_text",
+    "value": "“With the measure you use, it will be measured to you—and even more."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 25
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Whoever has will be given more; whoever does not have, even what they have will be taken from them.”"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 26
+  },
+  {
+    "type": "paragraph_text",
+    "value": "He also said,"
+  },
+  {
+    "type": "paragraph_text",
+    "value": "“This is what the kingdom of God is like. A man scatters seed on the ground."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 27
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Night and day, whether he sleeps or gets up, the seed sprouts and grows, though he does not know how."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 28
+  },
+  {
+    "type": "paragraph_text",
+    "value": "All by itself the soil produces grain—first the stalk, then the head, then the full kernel in the head."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 29
+  },
+  {
+    "type": "paragraph_text",
+    "value": "As soon as the grain is ripe, he puts the sickle to it, because the harvest has come.”"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 30
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Again he said,"
+  },
+  {
+    "type": "paragraph_text",
+    "value": "“What shall we say the kingdom of God is like, or what parable shall we use to describe it?"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 31
+  },
+  {
+    "type": "paragraph_text",
+    "value": "It is like a mustard seed, which is the smallest of all seeds on earth."
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 32
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Yet when planted, it grows and becomes the largest of all garden plants, with such big branches that the birds can perch in its shade.”"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 33
+  },
+  {
+    "type": "paragraph_text",
+    "value": "With many similar parables Jesus spoke the word to them, as much as they could understand."
+  },
+  {
+    "type": "verse_number",
+    "value": 34
+  },
+  {
+    "type": "paragraph_text",
+    "value": "He did not say anything to them without using a parable. But when he was alone with his own disciples, he explained everything."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 35
+  },
+  {
+    "type": "paragraph_text",
+    "value": "That day when evening came, he said to his disciples,"
+  },
+  {
+    "type": "paragraph_text",
+    "value": "“Let us go over to the other side.”"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 36
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Leaving the crowd behind, they took him along, just as he was, in the boat. There were also other boats with him."
+  },
+  {
+    "type": "verse_number",
+    "value": 37
+  },
+  {
+    "type": "paragraph_text",
+    "value": "A furious squall came up, and the waves broke over the boat, so that it was nearly swamped."
+  },
+  {
+    "type": "verse_number",
+    "value": 38
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Jesus was in the stern, sleeping on a cushion. The disciples woke him and said to him, “Teacher, don’t you care if we drown?”"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 39
+  },
+  {
+    "type": "paragraph_text",
+    "value": "He got up, rebuked the wind and said to the waves,"
+  },
+  {
+    "type": "paragraph_text",
+    "value": "“Quiet! Be still!”"
+  },
+  {
+    "type": "paragraph_text",
+    "value": "Then the wind died down and it was completely calm."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 40
+  },
+  {
+    "type": "paragraph_text",
+    "value": "He said to his disciples,"
+  },
+  {
+    "type": "paragraph_text",
+    "value": "“Why are you so afraid? Do you still have no faith?”"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 41
+  },
+  {
+    "type": "paragraph_text",
+    "value": "They were terrified and asked each other, “Who is this? Even the wind and the waves obey him!”"
+  },
+  {
+    "type": "paragraph_end"
+  }
+]
