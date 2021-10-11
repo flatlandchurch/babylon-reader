@@ -70,7 +70,7 @@ const badges = {
     title: 'The Instructions of God',
     description:
       'You completed all the readings from the Torah – the first five books of the Bible.',
-    image: '',
+    image: '/badges/torah.png',
     condition: (days) => findInRange(1, 9, days),
   },
   judges: {
