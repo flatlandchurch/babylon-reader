@@ -62,7 +62,7 @@ const badges = {
   gross: {
     title: 'Gross!',
     description: 'You survived Priestly law, with animal sacrifices and everything.',
-    image: '',
+    image: '/badges/gross.png',
     hidden: true,
     condition: (days) => days.find((d) => d.day === 9),
   },
