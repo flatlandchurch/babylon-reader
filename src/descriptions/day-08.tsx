@@ -4,6 +4,7 @@ import { Paragraph } from './styles';
 const Day = () => {
   return (
     <Paragraph>
+      <h2>Intro</h2>
       <p>
         Yesterday, we read about God stretching out his might hand to strike Egypt and Pharaoh for
         their collective oppression and violence against the Hebrew people. Pharaoh operates in a
