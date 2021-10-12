@@ -1,7 +1,7 @@
 ---
 day: 10
 weekday: Wednesday
-chapterNotation: Judges 1-2, 17
+chapterNotation: Judges 1-2, 17-18
 notes: null
 title: "Becoming Babylon, pt 1"
 week: 2
@@ -17,4 +17,5 @@ chapters:
   - JUDG.1
   - JUDG.2
   - JUDG.17
+  - JUDG.18
 ---

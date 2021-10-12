@@ -23,7 +23,10 @@ const Day = () => {
         Judges 17 begins a truly gut-wrenching tale of a family trying to define good and evil for
         themselves (a hyperlink back to Genesis 3), creating an idol from personal wealth (a
         hyperlink back to Exodus 32), and distorting the holiness and singularity of the Tabernacle
-        worship and practices.
+        worship and practices. Perhaps most egregious is the inclusion of a Levite in their schemes.
+        The Levites were meant to be a special family among the nation of Israel who were to serve
+        as priests, mediating God's grace and forgiveness to his people. But this Levite seeks his
+        own wealth and power, leading to the destruction of many people and idolatry.
       </p>
     </Paragraph>
   );
