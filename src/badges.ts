@@ -76,7 +76,7 @@ const badges = {
   judges: {
     title: 'The Darkest Timeline',
     description: 'You completed all the readings for the book of Judges, and boy was it a doozy.',
-    image: '',
+    image: '/badges/darkest_timeline.png',
     condition: (days) => findInRange(10, 11, days),
   },
   week_two: {
