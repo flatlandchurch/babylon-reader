@@ -1,9 +1,9 @@
 ---
 day: 16
 weekday: Tuesday
-chapterNotation: Isaiah 6; Ezekiel 1, 10, 16
+chapterNotation: Jeremiah 28-29
 notes: null
-title: "God in a Box, Revisited"
+title: "Plant Vineyards"
 week: 3
 themes:
   - Exile
@@ -12,8 +12,7 @@ babylons:
   - Israel
   - Babylon
 chapters:
-  - ISA.6
-  - EZEK.1
-  - EZEK.10
-  - EZEK.16
+  - DEUT.20
+  - JER.28
+  - JER.29
 ---
