@@ -82,7 +82,7 @@ const badges = {
   week_two: {
     title: 'Fortnight',
     description: 'Wow! Look at how faithful you are. You completed two weeks of readings',
-    image: '',
+    image: '/badges/fortnight.png',
     condition: (days) => findInRange(8, 14, days),
   },
   perfect_week_two: {
