@@ -102,7 +102,7 @@ const badges = {
   exile: {
     title: `By the Rivers of Babylon`,
     description: `You completed all the readings leading up to the Babylonian exile.`,
-    image: '',
+    image: '/badges/exile.png',
     condition: (days) => findInRange(1, 15, days),
   },
   daniel: {

@@ -1,7 +1,7 @@
 ---
 day: 16
 weekday: Tuesday
-chapterNotation: Jeremiah 28-29
+chapterNotation: Deuteronomy 20, Jeremiah 28-29
 notes: null
 title: "Plant Vineyards"
 week: 3
