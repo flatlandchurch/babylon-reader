@@ -12,6 +12,7 @@ import Day11 from './day-11';
 import Day12 from './day-12';
 import Day13 from './day-13';
 import Day14 from './day-14';
+import Day15 from './day-15';
 
 const descriptions = {
   1: Day01,
@@ -28,6 +29,7 @@ const descriptions = {
   12: Day12,
   13: Day13,
   14: Day14,
+  15: Day15,
 };
 
 export default descriptions;
