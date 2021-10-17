@@ -95,7 +95,7 @@ const badges = {
   kings: {
     title: `All the King's Horses`,
     description: `Honestly, this one's a bit of a freebie. I was really committed to the pun for 1 Kings 10-12.`,
-    image: '',
+    image: '/badges/kings.png',
     hidden: true,
     condition: (days) => days.find((d) => d.day === 14),
   },
