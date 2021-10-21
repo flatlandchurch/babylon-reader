@@ -105,6 +105,13 @@ const badges = {
     image: '/badges/exile.png',
     condition: (days) => findInRange(1, 15, days),
   },
+  like_son_of_man: {
+    title: 'One Like a Son of Man',
+    description: `You read one of Matt's favorite chapters in the Hebrew Bible.`,
+    image: '/badges/son_of_man.png',
+    hidden: true,
+    condition: (days) => days.find((d) => d.day === 19),
+  },
   daniel: {
     title: 'The Faithful Jew',
     description: 'You read the whole book of Daniel',
