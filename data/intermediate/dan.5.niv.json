@@ -316,6 +316,16 @@
   },
   {
     "type": "paragraph_text",
+    "value": "mene, mene, tekel, parsin"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "type": "paragraph_text",
     "value": ""
   },
   {
@@ -331,6 +341,67 @@
   },
   {
     "type": "break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "line_text",
+    "value": ": God has numbered the days of your reign and brought it to an end."
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 27
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "line_text",
+    "value": ": You have been weighed on the scales and found wanting."
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "verse_number",
+    "value": 28
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "line_text",
+    "value": ""
+  },
+  {
+    "type": "line_text",
+    "value": ": Your kingdom is divided and given to the Medes and Persians.”"
+  },
+  {
+    "type": "line_break"
   },
   {
     "type": "break"

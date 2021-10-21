@@ -47,10 +47,49 @@
     "type": "paragraph_end"
   },
   {
-    "type": "stanza_start"
+    "type": "paragraph_start"
   },
   {
     "sectionNumber": 2,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "babylon the great"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 3,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "the mother of prostitutes"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
+    "sectionNumber": 4,
+    "verseNumber": 5,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "and of the abominations of the earth."
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 5,
     "verseNumber": 5,
     "chapterNumber": null,
     "type": "line_text",

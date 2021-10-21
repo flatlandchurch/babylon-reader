@@ -238,6 +238,19 @@
     "type": "paragraph_start"
   },
   {
+    "sectionNumber": 2,
+    "verseNumber": 25,
+    "chapterNumber": null,
+    "type": "paragraph_text",
+    "value": "mene, mene, tekel, parsin"
+  },
+  {
+    "type": "paragraph_end"
+  },
+  {
+    "type": "paragraph_start"
+  },
+  {
     "sectionNumber": 1,
     "verseNumber": 26,
     "chapterNumber": null,
@@ -248,7 +261,46 @@
     "type": "paragraph_end"
   },
   {
-    "type": "break"
+    "type": "stanza_start"
+  },
+  {
+    "sectionNumber": 2,
+    "verseNumber": 26,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "  : God has numbered the days of your reign and brought it to an end."
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 27,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "  : You have been weighed on the scales and found wanting."
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "sectionNumber": 1,
+    "verseNumber": 28,
+    "chapterNumber": null,
+    "type": "line_text",
+    "value": "  : Your kingdom is divided and given to the Medes and Persians.”"
+  },
+  {
+    "type": "line_break"
+  },
+  {
+    "type": "stanza_end"
+  },
+  {
+    "type": "stanza_start"
+  },
+  {
+    "type": "stanza_end"
   },
   {
     "type": "paragraph_start"
