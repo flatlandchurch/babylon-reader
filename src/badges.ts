@@ -120,8 +120,8 @@ const badges = {
   },
   week_three: {
     title: 'Good Things Come in Threes',
-    description: `You completed three weeks of reading. That's commendable!`,
-    image: '',
+    description: `You completed three weeks of reading. That's commendable! I'm so proud of you, keep it up!`,
+    image: '/badges/week_3.png',
     condition: (days) => findInRange(15, 21, days),
   },
   perfect_week_three: {
