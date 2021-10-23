@@ -115,7 +115,7 @@ const badges = {
   daniel: {
     title: 'The Faithful Jew',
     description: 'You read the whole book of Daniel',
-    image: '',
+    image: '/badges/faithful_jew.png',
     condition: (days) => findInRange(17, 21, days),
   },
   week_three: {
