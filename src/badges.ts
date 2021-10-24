@@ -133,6 +133,8 @@ const badges = {
   },
   magi: {
     title: 'Gifts of the Magi',
+    description: 'Complete the reading of Matthew 2',
+    image: '/badges/magi.png',
     condition: (days) => days.find((d) => d.day === 22),
   },
   son_of_man: {
