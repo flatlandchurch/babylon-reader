@@ -188,7 +188,7 @@ const badges = {
     description: 'You read consistently every day this week!',
     hidden: true,
     image: '/badges/perfect_week_5.png',
-    condition: (days) => perfectInRange(22, 28, days),
+    condition: (days) => perfectInRange(29, 35, days),
   },
   conqueror: {
     title: 'Conqueror',
