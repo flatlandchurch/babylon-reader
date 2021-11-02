@@ -139,11 +139,14 @@ const badges = {
   },
   son_of_man: {
     title: 'Son of Man',
+    description: 'You saw the Son of Man lifted up, and witnessed his glorious resurrection.',
+    image: '/badges/son_of_man_lifted.png',
     condition: (days) => findInRange(23, 26, days),
   },
   week_four: {
     title: 'Four: One More',
     description: `Incredible! You completed four weeks of reading. Look how far you've come! Only one more week to go.`,
+    image: '/badges/week_4.png',
     condition: (days) => findInRange(22, 28, days),
   },
   perfect_week_four: {
@@ -155,10 +158,14 @@ const badges = {
   },
   roman_exiles: {
     title: 'The People of God',
+    description: `You've learned what it looks like to live as the people of God in whatever Babylon you find yourself.`,
+    image: '/badges/people_of_god.png',
     condition: (days) => findInRange(27, 29, days),
   },
   holy: {
     title: 'Holy, Holy, Holy',
+    description: `You've read one of the most beautiful hymns in the book of Revelation.`,
+    image: '/badges/holy.png',
     condition: (days) => days.find((d) => d.day === 30),
   },
   advent: {
@@ -173,14 +180,9 @@ const badges = {
     title: 'The End and the Beginning',
     condition: (days) => days.find((d) => d.day === 35),
   },
-  skip_end: {
-    title: 'Skip to the End',
-    description: 'Read the final reading with at least one previous reading still unread.',
-    hidden: true,
-    condition: (days) => days.find((d) => d.day === 35) && !findInRange(1, 35, days), // TODO: this is technically impermanent
-  },
   week_five: {
     title: `High Five`,
+    image: '/badges/week_4.png',
     condition: (days) => findInRange(29, 35, days),
   },
   perfect_week_five: {
