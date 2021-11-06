@@ -170,19 +170,28 @@ const badges = {
   },
   advent: {
     title: 'Advent',
+    description: `You've read one of the most beautiful, artistic tellings of the incarnation and God's delivering his people.`,
+    image: '/badges/advent.png',
     condition: (days) => days.find((d) => d.day === 32),
   },
-  babylon_fallen: {
+  fallen_babylon: {
     title: 'Fallen is Babylon',
+    description:
+      'You witnessed the final defeat of the human project of evil. The story is almost over.',
+    image: '/badges/fallen_babylon.png',
     condition: (days) => findInRange(33, 34, days),
   },
   the_beginning: {
     title: 'The End and the Beginning',
+    description:
+      'The story is at its end, but in another way, this is just the beginning of a life-long relationship with the story of the Bible.',
+    image: '/badges/the_end.png',
     condition: (days) => days.find((d) => d.day === 35),
   },
   week_five: {
     title: `High Five`,
-    image: '/badges/week_4.png',
+    description: 'You completed week 5 of readings.',
+    image: '/badges/week_5.png',
     condition: (days) => findInRange(29, 35, days),
   },
   perfect_week_five: {
@@ -194,17 +203,18 @@ const badges = {
   },
   conqueror: {
     title: 'Conqueror',
+    description:
+      'We do not conquer through violence or warfare, but through the blood of the Lamb and the word of our testimony.',
+    image: '/badges/conqueror.png',
     condition: (days) => findInRange(1, 35, days),
   },
   more_than_a_conqueror: {
     title: 'More than a Conqueror',
+    description:
+      'You have faithfully read every day of the reading challenge. Incredible job. I am so proud of you!',
+    image: '/badges/white_stone.png',
     hidden: true,
     condition: (days) => perfectInRange(1, 35, days),
-  },
-  overcomer: {
-    title: '',
-    hidden: true,
-    condition: () => {},
   },
   catch_up: {
     title: 'Ketch Up',
